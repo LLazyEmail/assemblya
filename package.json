@@ -12,7 +12,16 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "changelog": "auto-changelog --commit-limit false --hide-credit -p"
+    "changelog": "auto-changelog --commit-limit false --hide-credit -p",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .prettierignore",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .prettierignore",
+    "check:images": "node scripts/check-missing-images.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "check:i18n": "node scripts/check-i18n-sync.mjs",
+    "ci": "npm run build",
+    "docs:uk": "npm start -- --locale uk",
+    "generate:docs-index": "node ./scripts/generate-docs-index.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",
@@ -31,7 +40,11 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "typescript": "^7.0.0",
-    "auto-changelog": "^2.6.0"
+    "auto-changelog": "^2.6.0",
+    "prettier": "^3.6.0",
+    "eslint": "^9.0.0",
+    "@docusaurus/tsconfig": "^3.10.2",
+    "@docusaurus/types": "^3.10.2"
   },
   "browserslist": {
     "production": [
