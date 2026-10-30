@@ -21,6 +21,7 @@
     "check:i18n": "node scripts/check-i18n-sync.mjs"
     "ci": "npm run build",
     "docs:uk": "npm start -- --locale uk"
+    "generate:docs-index": "node ./scripts/generate-docs-index.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",
