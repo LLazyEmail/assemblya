@@ -17,6 +17,7 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .prettierignore"
     "check:images": "node scripts/check-missing-images.mjs"
     "lint": "eslint ."
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",
@@ -38,6 +39,8 @@
     "auto-changelog": "^2.6.0",
     "prettier": "^3.6.0"
     "eslint": "^9.0.0"
+    "@docusaurus/tsconfig": "^3.10.2",
+    "@docusaurus/types": "^3.10.2"
   },
   "browserslist": {
     "production": [
