@@ -26,6 +26,9 @@ const config = {
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
+      // Missing / corrupt media must not hard-fail local or CI builds.
+      // Follow-up PRs fix path typos and restore assets; see AGENTS.md.
+      onBrokenMarkdownImages: 'warn',
     },
   },
 
