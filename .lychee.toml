@@ -1,0 +1,19 @@
+# Lychee config for assemblya docs
+# CI keeps fail soft for flaky external links.
+
+timeout = 20
+max_concurrency = 8
+accept = [200, 204, 206, 403, 429]
+
+exclude_path = [
+  "node_modules",
+  "build",
+  ".git",
+]
+
+exclude = [
+  '^https://twitter\\.com/',
+  '^https://x\\.com/',
+  '^https://www\\.linkedin\\.com/',
+  '^https://linkedin\\.com/',
+]
