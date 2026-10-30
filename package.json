@@ -16,6 +16,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .prettierignore",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .prettierignore"
     "check:images": "node scripts/check-missing-images.mjs"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",
@@ -36,6 +37,7 @@
     "typescript": "^7.0.0",
     "auto-changelog": "^2.6.0",
     "prettier": "^3.6.0"
+    "eslint": "^9.0.0"
   },
   "browserslist": {
     "production": [
