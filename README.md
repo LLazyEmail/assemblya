@@ -1,5 +1,9 @@
 # AssemblyA
 
+<!-- fork-status -->
+> **Fork note:** This is the [LLazyEmail/assemblya](https://github.com/LLazyEmail/assemblya) working fork of [atherdon/assemblya](https://github.com/atherdon/assemblya). Prefer opening draft PRs against this fork's `main`.
+
+
 Documentation site built with [Docusaurus](https://docusaurus.io/).
 
 Live site (upstream): https://atherdon.github.io/assemblya/
