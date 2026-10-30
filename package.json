@@ -19,6 +19,8 @@
     "lint": "eslint ."
     "typecheck": "tsc --noEmit"
     "check:i18n": "node scripts/check-i18n-sync.mjs"
+    "ci": "npm run build",
+    "docs:uk": "npm start -- --locale uk"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",
