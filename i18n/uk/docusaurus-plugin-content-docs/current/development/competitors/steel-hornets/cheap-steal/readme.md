@@ -9,6 +9,8 @@ sidebar_position: 10
 
 > Note: these source files are present in the repository, but the original blobs could not be decoded as JPEG images. They were moved and renamed consistently, but not recompressed.
 
+> **Media status:** images `img2`–`img13` are referenced but not present on disk in this fork; `img1` exists but has a corrupt JPEG header. Kept references intentionally; restore binaries in a follow-up.
+
 ## Images
 
 ![steel-hornets-cheap-steal-img1](/img/hornets/cheap/steel-hornets-cheap-steal-img1.jpg)
