@@ -18,6 +18,7 @@
     "check:images": "node scripts/check-missing-images.mjs"
     "lint": "eslint ."
     "typecheck": "tsc --noEmit"
+    "check:i18n": "node scripts/check-i18n-sync.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",
