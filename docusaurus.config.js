@@ -12,12 +12,13 @@ const config = {
   tagline: 'Modular payload delivery platform — veterans-led engineering docs',
   favicon: 'img/favicon.ico',
 
-  // GitHub Pages project site: https://atherdon.github.io/assemblya/
-  url: 'https://atherdon.github.io',
+  // GitHub Pages project site (fork): https://llazyemail.github.io/assemblya/
+  // Upstream personal site remains: https://atherdon.github.io/assemblya/
+  url: 'https://llazyemail.github.io',
   baseUrl: '/assemblya/',
 
-  // GitHub pages deployment config.
-  organizationName: 'atherdon',
+  // GitHub pages deployment config (this fork).
+  organizationName: 'LLazyEmail',
   projectName: 'assemblya',
   trailingSlash: false,
 
@@ -68,7 +69,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/atherdon/assemblya/tree/main/',
+            'https://github.com/LLazyEmail/assemblya/tree/main/',
           editLocalizedFiles: true,
         },
         blog: false,
@@ -163,7 +164,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/atherdon/assemblya',
+            href: 'https://github.com/LLazyEmail/assemblya',
             label: 'GitHub',
             title: 'GitHub',
             className: 'header-icon-link header-github-link',
@@ -257,7 +258,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                html: '<a href="https://github.com/atherdon/assemblya" target="_blank" rel="noopener noreferrer" class="footer__link-item"><i class="fa-brands fa-github link-icon" aria-hidden="true"></i>GitHub</a>',
+                html: '<a href="https://github.com/LLazyEmail/assemblya" target="_blank" rel="noopener noreferrer" class="footer__link-item"><i class="fa-brands fa-github link-icon" aria-hidden="true"></i>GitHub</a>',
               },
               {
                 html: '<a href="#" class="footer__link-item"><i class="fa-solid fa-life-ring link-icon" aria-hidden="true"></i>Support</a>',

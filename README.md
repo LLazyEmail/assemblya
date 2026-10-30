@@ -2,7 +2,9 @@
 
 Documentation site built with [Docusaurus](https://docusaurus.io/).
 
-Live site: https://atherdon.github.io/assemblya/
+Live site (upstream): https://atherdon.github.io/assemblya/
+
+Fork (this repo): https://github.com/LLazyEmail/assemblya — Pages URL when enabled: https://llazyemail.github.io/assemblya/
 
 ## Getting started
 
