@@ -40,14 +40,9 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "typescript": "^7.0.0",
-<<<<<<< HEAD
     "auto-changelog": "^2.6.0",
-    "prettier": "^3.6.0"
-    "eslint": "^9.0.0"
-=======
     "prettier": "^3.6.0",
     "eslint": "^9.0.0",
->>>>>>> e560d28 (fix: properly merge DX tooling package.json scripts and deps)
     "@docusaurus/tsconfig": "^3.10.2",
     "@docusaurus/types": "^3.10.2"
   },
