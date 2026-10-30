@@ -39,6 +39,21 @@ npm run write-translations -- --locale uk
 | `npm run clear` | Clear the Docusaurus cache |
 | `npm run write-translations -- --locale uk` | Update Ukrainian translation JSON files |
 
+
+
+## Requirements
+
+- Node.js 20+ (20 LTS or 22/24; CI uses Node 24)
+- npm 10+
+
+## Agent / contributor notes
+
+See [AGENTS.md](./AGENTS.md) for AI-agent conventions, EN/UK sync rules, and media caveats.
+
+## Continuous integration
+
+Pull requests should stay green via GitHub Actions (install → build). Prefer reusable workflows from [`LLazyEmail/documentation-actions`](https://github.com/LLazyEmail/documentation-actions) `@v1`.
+
 ## GitHub Pages deployment
 
 Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the site and deploys it with GitHub Pages.
