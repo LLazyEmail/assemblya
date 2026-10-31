@@ -1,0 +1,26 @@
+name: i18n sync check
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'i18n/**'
+      - 'scripts/check-i18n-sync.mjs'
+      - 'package.json'
+      - '.github/workflows/i18n-check.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'i18n/**'
+      - 'scripts/check-i18n-sync.mjs'
+
+jobs:
+  i18n:
+    uses: LLazyEmail/documentation-actions/.github/workflows/reusable-npm-script-check.yml@v1
+    with:
+      working-directory: .
+      cache-dependency-path: package-lock.json
+      node-version: '24'
+      job-name: Check i18n sync
+      run-command: npm run check:i18n
