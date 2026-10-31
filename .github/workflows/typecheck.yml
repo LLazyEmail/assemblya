@@ -1,0 +1,25 @@
+name: Typecheck
+
+on:
+  pull_request:
+    paths:
+      - '**/*.{ts,tsx,js,jsx}'
+      - 'tsconfig*.json'
+      - 'package.json'
+      - '.github/workflows/typecheck.yml'
+  push:
+    branches: [main]
+    paths:
+      - '**/*.{ts,tsx,js,jsx}'
+      - 'tsconfig*.json'
+      - 'package.json'
+
+jobs:
+  typecheck:
+    uses: LLazyEmail/documentation-actions/.github/workflows/reusable-npm-script-check.yml@v1
+    with:
+      working-directory: .
+      cache-dependency-path: package-lock.json
+      node-version: '24'
+      job-name: TypeScript check
+      run-command: npm run typecheck
