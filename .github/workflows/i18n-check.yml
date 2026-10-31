@@ -22,6 +22,5 @@ jobs:
       working-directory: .
       cache-dependency-path: package-lock.json
       node-version: '24'
-      lfs: true
       job-name: Check i18n sync
       run-command: npm run check:i18n
