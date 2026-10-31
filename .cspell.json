@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "language": "en,uk",
+  "words": [
+    "assemblya",
+    "AssemBLYA",
+    "LLazyEmail",
+    "atherdon",
+    "docusaurus",
+    "ecoflow",
+    "markdownlint",
+    "lychee",
+    "nayavu",
+    "houdini",
+    "petroved"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "build/**",
+    "package-lock.json",
+    "static/**"
+  ]
+}
