@@ -5,12 +5,13 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
+import type {JSX} from 'react';
 
 function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   const heroImage = useBaseUrl('/img/social/hero-unit.png');
   const missionImage = useBaseUrl('/img/mission-field.jpg');
-  const ukGettingStarted = useBaseUrl('/docs/getting-started', {locale: 'uk'});
+  const ukGettingStarted = useBaseUrl('/docs/getting-started');
 
   const exploreLinks = [
     {

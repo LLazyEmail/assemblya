@@ -6,6 +6,7 @@ import timelineEn from '../data/timeline.en.json';
 import timelineUk from '../data/timeline.uk.json';
 
 import styles from './timeline.module.css';
+import type {JSX} from 'react';
 
 type TimelineItem = {
   id: string;

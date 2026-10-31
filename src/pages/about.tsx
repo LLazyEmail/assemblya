@@ -7,6 +7,7 @@ import teamEn from '../data/team.en.json';
 import teamUk from '../data/team.uk.json';
 
 import styles from './about.module.css';
+import type {JSX} from 'react';
 
 type TeamMember = {
   id: string;

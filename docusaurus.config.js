@@ -49,10 +49,10 @@ const config = {
   },
 
   themes: [
+    /** @type {import('@docusaurus/types').PluginConfig} */
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      ({
+      {
         hashed: true,
         // lunr language packs: English only; Ukrainian docs still index as text
         language: ['en'],
@@ -60,7 +60,7 @@ const config = {
         indexBlog: false,
         indexPages: true,
         docsRouteBasePath: '/docs',
-      }),
+      },
     ],
   ],
 
