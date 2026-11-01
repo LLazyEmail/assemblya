@@ -3,6 +3,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 
 import styles from './pricing.module.css';
+import type {JSX} from 'react';
 
 type Plan = {
   id: string;
