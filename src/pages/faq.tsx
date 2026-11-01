@@ -7,6 +7,7 @@ import faqEn from '../data/faq.en.json';
 import faqUk from '../data/faq.uk.json';
 
 import styles from './faq.module.css';
+import type {JSX} from 'react';
 
 type FaqItem = {
   id: string;
