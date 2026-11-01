@@ -1,0 +1,26 @@
+name: Missing images check
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'static/**'
+      - 'scripts/check-missing-images.mjs'
+      - 'package.json'
+      - '.github/workflows/missing-images.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'static/**'
+      - 'scripts/check-missing-images.mjs'
+
+jobs:
+  images:
+    uses: LLazyEmail/documentation-actions/.github/workflows/reusable-npm-script-check.yml@v1
+    with:
+      working-directory: .
+      cache-dependency-path: package-lock.json
+      node-version: '24'
+      job-name: Check missing images
+      run-command: npm run check:images

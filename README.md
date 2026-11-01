@@ -1,8 +1,14 @@
 # AssemblyA
 
+<!-- fork-status -->
+> **Fork note:** This is the [LLazyEmail/assemblya](https://github.com/LLazyEmail/assemblya) working fork of [atherdon/assemblya](https://github.com/atherdon/assemblya). Prefer opening draft PRs against this fork's `main`.
+
+
 Documentation site built with [Docusaurus](https://docusaurus.io/).
 
-Live site: https://atherdon.github.io/assemblya/
+Live site (upstream): https://atherdon.github.io/assemblya/
+
+Fork (this repo): https://github.com/LLazyEmail/assemblya — Pages URL when enabled: https://llazyemail.github.io/assemblya/
 
 ## Getting started
 
@@ -38,6 +44,21 @@ npm run write-translations -- --locale uk
 | `npm run serve` | Serve the production build locally |
 | `npm run clear` | Clear the Docusaurus cache |
 | `npm run write-translations -- --locale uk` | Update Ukrainian translation JSON files |
+
+
+
+## Requirements
+
+- Node.js 20+ (20 LTS or 22/24; CI uses Node 24)
+- npm 10+
+
+## Agent / contributor notes
+
+See [AGENTS.md](./AGENTS.md) for AI-agent conventions, EN/UK sync rules, and media caveats.
+
+## Continuous integration
+
+Pull requests should stay green via GitHub Actions (install → build). Prefer reusable workflows from [`LLazyEmail/documentation-actions`](https://github.com/LLazyEmail/documentation-actions) `@v1`.
 
 ## GitHub Pages deployment
 

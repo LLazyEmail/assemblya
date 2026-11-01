@@ -32,4 +32,4 @@ sidebar_position: 10
 
 ![IMG-20260625-WA0124](https://raw.githubusercontent.com/atherdon/fuck-ecoflow/refs/heads/main/static/img/houdini/IMG-20260625-WA0124.jpg)
 
-![IMG-20260625-WA0125](https://raw.githubusercontent.com/atherdon/fuck-ecoflow/refs/heads/main/static/img/houdini/IMG-20260625-WA0125-jpg-06-25-2026_11_29_PM.png)
+![IMG-20260625-WA0125](https://raw.githubusercontent.com/atherdon/fuck-ecoflow/refs/heads/main/static/img/houdini/IMG-20260625-WA0125.png)

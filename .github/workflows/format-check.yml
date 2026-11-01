@@ -1,0 +1,28 @@
+name: Format check
+
+on:
+  pull_request:
+    paths:
+      - '**/*.{js,jsx,ts,tsx,md,css,json}'
+      - 'package.json'
+      - '.prettierignore'
+      - '.prettierrc*'
+      - '.github/workflows/format-check.yml'
+  push:
+    branches: [main]
+    paths:
+      - '**/*.{js,jsx,ts,tsx,md,css,json}'
+      - 'package.json'
+      - '.prettierignore'
+      - '.prettierrc*'
+
+jobs:
+  format:
+    uses: LLazyEmail/documentation-actions/.github/workflows/reusable-npm-script-check.yml@v1
+    with:
+      working-directory: .
+      cache-dependency-path: package-lock.json
+      node-version: '24'
+      lfs: true
+      job-name: Prettier format check
+      run-command: npm run format:check
