@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- fix: useBaseUrl for absolute /img JSX and correct steel-hornets paths [`#68`](https://github.com/LLazyEmail/assemblya/pull/68)
 - fix: replace remaining Git LFS pointers in static/img + docs/ [`#65`](https://github.com/LLazyEmail/assemblya/pull/65)
 - fix: add 6 missing steel-hornets/diss images referenced by MDX [`#70`](https://github.com/LLazyEmail/assemblya/pull/70)
 - fix: replace Git LFS pointer binaries in static/img/steel-hornets (1/2) [`#64`](https://github.com/LLazyEmail/assemblya/pull/64)
@@ -236,6 +237,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update index.tsx [`ba1e056`](https://github.com/LLazyEmail/assemblya/commit/ba1e05664dfc0c960120435e234f06dfac0a62f2)
 - Delete docs/master-plan-v1.png [`8051c99`](https://github.com/LLazyEmail/assemblya/commit/8051c99e69fbc1515488079a06c018180076cf2e)
 - Create babel.config.js [`6d8facd`](https://github.com/LLazyEmail/assemblya/commit/6d8facdb165c05d01b2ffaedbd2c144e6e9eac45)
+- chore(changelog): regenerate after merged pull request [`65c36cc`](https://github.com/LLazyEmail/assemblya/commit/65c36cc5547b6e592345e4e6e1b434d96d858541)
 - chore(changelog): regenerate after merged pull request [`dfdf72b`](https://github.com/LLazyEmail/assemblya/commit/dfdf72b1903aeb18ef691006f272c5042d7067e9)
 - chore(changelog): regenerate after merged pull request [`ee3ab0f`](https://github.com/LLazyEmail/assemblya/commit/ee3ab0ff4c60b6773f186890f6715d65bc8a23ab)
 - chore(changelog): regenerate after merged pull request [`4b5e72a`](https://github.com/LLazyEmail/assemblya/commit/4b5e72a083c9efd323ffad2c5ba24090503558f0)
