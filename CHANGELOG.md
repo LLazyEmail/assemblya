@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- fix: remap ./images markdown refs to existing static /img paths [`#71`](https://github.com/LLazyEmail/assemblya/pull/71)
 - ci: inline test-deploy to fix Invalid workflow on cross-repo PRs [`#63`](https://github.com/LLazyEmail/assemblya/pull/63)
 - ci: drop lfs checkout on format-check [`#61`](https://github.com/LLazyEmail/assemblya/pull/61)
 - ci: adopt documentation-actions docs-index [`#46`](https://github.com/LLazyEmail/assemblya/pull/46)
@@ -195,6 +196,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - docs: add CHANGELOG.md scaffold [`0099c6b`](https://github.com/LLazyEmail/assemblya/commit/0099c6bdd534c1149573a66c4a7458c677417e67)
 - Create documentation intro page [`6c56291`](https://github.com/LLazyEmail/assemblya/commit/6c56291bcfccfc283c7218c1c16b7c7534dcb4d5)
 - Create homepage features styles [`bfe2aa5`](https://github.com/LLazyEmail/assemblya/commit/bfe2aa52d544a3111fc4d9ae14dafdb343d685fc)
+- chore(changelog): regenerate after merged pull request [`a14645d`](https://github.com/LLazyEmail/assemblya/commit/a14645db6210f2dfd8f41cdf922cefe621d93663)
 - 111 [`ad25252`](https://github.com/LLazyEmail/assemblya/commit/ad25252dccb7fe8bb1099aa3c1b86500c533e366)
 - 111 [`ccce88e`](https://github.com/LLazyEmail/assemblya/commit/ccce88e7365146dbb654798905687cb6f9d2dd8a)
 - 3131312 [`3b23cc5`](https://github.com/LLazyEmail/assemblya/commit/3b23cc5ffff680ac4a02dc7de6a306f12582cd61)
