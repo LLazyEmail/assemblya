@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- fix: replace Git LFS pointer binaries in i18n/uk docs (2/2) [`#67`](https://github.com/LLazyEmail/assemblya/pull/67)
 - fix: replace Git LFS pointer binaries in i18n/uk docs (1/2) [`#66`](https://github.com/LLazyEmail/assemblya/pull/66)
 - fix: point docusaurus url at live atherdon.github.io Pages host [`#69`](https://github.com/LLazyEmail/assemblya/pull/69)
 - fix: useBaseUrl for absolute /img JSX and correct steel-hornets paths [`#68`](https://github.com/LLazyEmail/assemblya/pull/68)
@@ -239,6 +240,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update index.tsx [`ba1e056`](https://github.com/LLazyEmail/assemblya/commit/ba1e05664dfc0c960120435e234f06dfac0a62f2)
 - Delete docs/master-plan-v1.png [`8051c99`](https://github.com/LLazyEmail/assemblya/commit/8051c99e69fbc1515488079a06c018180076cf2e)
 - Create babel.config.js [`6d8facd`](https://github.com/LLazyEmail/assemblya/commit/6d8facdb165c05d01b2ffaedbd2c144e6e9eac45)
+- chore(changelog): regenerate after merged pull request [`ae9dc03`](https://github.com/LLazyEmail/assemblya/commit/ae9dc03d5e7b35517380c5b0bc3a003456dbec35)
 - chore(changelog): regenerate after merged pull request [`f1e5ccc`](https://github.com/LLazyEmail/assemblya/commit/f1e5ccc4a261c0b456cf24915702813e06374789)
 - chore(changelog): regenerate after merged pull request [`7172311`](https://github.com/LLazyEmail/assemblya/commit/71723118e16ff6278a1e17510ecc095b34fbcdf7)
 - chore(changelog): regenerate after merged pull request [`65c36cc`](https://github.com/LLazyEmail/assemblya/commit/65c36cc5547b6e592345e4e6e1b434d96d858541)
