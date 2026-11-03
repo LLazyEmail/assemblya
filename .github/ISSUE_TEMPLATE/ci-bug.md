@@ -1,10 +1,17 @@
 ---
 name: CI / build bug
-about: npm run build or Actions failure
-title: "[ci] "
-labels: bug
+about: Test-deploy, typecheck, or workflow failure
+title: "ci: "
+labels: ci
 ---
 
-## Command / workflow
-## Log excerpt
-## Node version
+## What failed
+
+<!-- workflow name, job, error snippet -->
+
+## Expected
+
+## Context
+
+- Branch / PR:
+- Node version:
