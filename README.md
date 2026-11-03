@@ -1,69 +1,31 @@
 # AssemblyA
 
 <!-- fork-status -->
-> **Fork note:** This is the [LLazyEmail/assemblya](https://github.com/LLazyEmail/assemblya) working fork of [atherdon/assemblya](https://github.com/atherdon/assemblya). Prefer opening draft PRs against this fork's `main`.
 
+> **Fork note:** This is the [LLazyEmail/assemblya](https://github.com/LLazyEmail/assemblya) working fork of [atherdon/assemblya](https://github.com/atherdon/assemblya). Upstream is the original docs site; this fork is where modernization, CI, and EN/UK sync work happens.
 
-Documentation site built with [Docusaurus](https://docusaurus.io/).
-
-Live site (upstream): https://atherdon.github.io/assemblya/
-
-Fork (this repo): https://github.com/LLazyEmail/assemblya — Pages URL when enabled: https://llazyemail.github.io/assemblya/
-
-## Getting started
-
-```bash
-npm install
-npm start
-```
-
-### Languages (i18n)
-
-The site supports **English** (`en`, default) and **Ukrainian** (`uk`).
-
-```bash
-# Develop a specific locale
-npm start -- --locale uk
-
-# Refresh translation JSON scaffolds after UI string changes
-npm run write-translations -- --locale uk
-```
-
-- English docs live in `docs/`
-- Ukrainian doc translations live in `i18n/uk/docusaurus-plugin-content-docs/current/`
-- Navbar/footer/sidebar UI strings: `i18n/uk/docusaurus-theme-classic/` and `i18n/uk/code.json`
-- Use the navbar language dropdown to switch locales on the deployed site (`/uk/...`)
-
-## Scripts
-
-| Command | Description |
-| --- | --- |
-| `npm start` | Start the local development server (default locale) |
-| `npm start -- --locale uk` | Start the Ukrainian locale |
-| `npm run build` | Build all locales into `build/` |
-| `npm run serve` | Serve the production build locally |
-| `npm run clear` | Clear the Docusaurus cache |
-| `npm run write-translations -- --locale uk` | Update Ukrainian translation JSON files |
-
-
+Docusaurus documentation site for AssemBLYA (EN + UK).
 
 ## Requirements
 
-- Node.js 20+ (20 LTS or 22/24; CI uses Node 24)
-- npm 10+
+- Node.js 24 (see `.nvmrc`)
+- npm
 
-## Agent / contributor notes
+## Development
 
-See [AGENTS.md](./AGENTS.md) for AI-agent conventions, EN/UK sync rules, and media caveats.
+```bash
+npm ci
+npm start          # English
+npm run docs:uk    # Ukrainian locale
+npm run build
+npm run typecheck
+npm run format:check
+npm run check:images
+npm run check:i18n
+```
 
-## Continuous integration
+## CI
 
-Pull requests should stay green via GitHub Actions (install → build). Prefer reusable workflows from [`LLazyEmail/documentation-actions`](https://github.com/LLazyEmail/documentation-actions) `@v1`.
+Pull requests run test-deploy, typecheck, format check, i18n sync, and missing-images checks via reusable workflows from `LLazyEmail/documentation-actions`.
 
-## GitHub Pages deployment
-
-Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the site and deploys it with GitHub Pages.
-
-Pull requests to `main` run `.github/workflows/test-deploy.yml` to verify the site builds.
-
-After merging, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**.
+Broken or missing media images warn but do not fail the build (`onBrokenMarkdownImages: 'warn'`).
