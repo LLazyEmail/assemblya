@@ -190,6 +190,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add renovate.json [`2b62793`](https://github.com/LLazyEmail/assemblya/commit/2b62793dd19e03406f546430e87f899caa2815b6)
 - 111 [`f597033`](https://github.com/LLazyEmail/assemblya/commit/f5970335bdfdb0d195eb9466730eb318905ae077)
 - Update roadmap.md [`e3b2bf3`](https://github.com/LLazyEmail/assemblya/commit/e3b2bf37d0bba99e2ef7253f4ad05c58fc8cdf12)
+- chore(changelog): regenerate after merged pull request [`3dec6c6`](https://github.com/LLazyEmail/assemblya/commit/3dec6c6fb62b5f115cfb280b47d84beba98f7332)
 - chore: bump @mdx-js/react to ^3.1.0 [`617dea2`](https://github.com/LLazyEmail/assemblya/commit/617dea2dea5da390e8616ebfc07ef4447045c595)
 - chore: bump prism-react-renderer to ^2.4.1 [`c1c2501`](https://github.com/LLazyEmail/assemblya/commit/c1c2501ef99e69803f06bf5ada8798c5a4a2ea47)
 - chore: bump clsx to ^2.1.1 [`4535f3d`](https://github.com/LLazyEmail/assemblya/commit/4535f3df27260a8946e6369b96c201c5be2b2f95)
