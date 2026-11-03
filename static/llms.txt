@@ -1,0 +1,17 @@
+# AssemBLYA docs (LLazyEmail fork)
+
+> Modular payload delivery platform documentation (Docusaurus).
+
+## Primary
+
+- [Intro](https://llazyemail.github.io/assemblya/docs/getting-started/intro): Getting started
+- [GitHub](https://github.com/LLazyEmail/assemblya): Source
+
+## Locales
+
+- English (default)
+- Ukrainian (`/uk/...`)
+
+## Notes for agents
+
+See AGENTS.md in the repository root.
