@@ -1,8 +1,5 @@
 name: Test deployment
 
-# Thin caller for documentation-actions reusable-docs-ci (build only).
-# Prefer docs-ci over the legacy reusable-docusaurus-test-deploy path.
-# Do NOT enable lfs: true — LFS objects 404 on this fork.
 on:
   pull_request:
     branches:
@@ -10,17 +7,20 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
-  issues: write
 
 jobs:
   test-deploy:
-    uses: LLazyEmail/documentation-actions/.github/workflows/reusable-docs-ci.yml@v1
-    with:
-      working-directory: .
-      cache-dependency-path: package-lock.json
-      node-version: '24'
-      run-build: true
-      lfs: false
-      annotate-log: true
-    secrets: inherit
+    name: Test build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build Docusaurus
+        uses: LLazyEmail/documentation-actions/actions/docusaurus-build@v1
+        with:
+          working-directory: .
+          cache-dependency-path: package-lock.json
+          node-version: '24'
