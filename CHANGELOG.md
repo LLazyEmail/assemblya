@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- chore: add pull request template (EN/UK checklist) [`#24`](https://github.com/LLazyEmail/assemblya/pull/24)
+- chore: ensure build/cache artifacts are gitignored [`#23`](https://github.com/LLazyEmail/assemblya/pull/23)
+- chore: add .nvmrc pinning Node 24 [`#22`](https://github.com/LLazyEmail/assemblya/pull/22)
 - ci: adopt documentation-actions changelog [`#21`](https://github.com/LLazyEmail/assemblya/pull/21)
 - ci: adopt documentation-actions auto-rebase [`#14`](https://github.com/LLazyEmail/assemblya/pull/14)
 - ci: adopt documentation-actions lychee link-check [`#16`](https://github.com/LLazyEmail/assemblya/pull/16)
@@ -66,6 +69,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - chore: add ESLint flat config with Docusaurus plugin [`5b3b2da`](https://github.com/LLazyEmail/assemblya/commit/5b3b2daed43f8bf996dc51f66f3aad896cd9eb61)
 - Add standalone pricing page with three drop-system plans [`b8767df`](https://github.com/LLazyEmail/assemblya/commit/b8767df2d5b847524921f550f9bd377460565986)
 - Add About us page with Dentiflair-style team grid [`dc7746f`](https://github.com/LLazyEmail/assemblya/commit/dc7746f797e74a4160ec470fa56c2ad5f70b2435)
+- chore(changelog): regenerate after merged pull request [`a1c1fe5`](https://github.com/LLazyEmail/assemblya/commit/a1c1fe5c426636c4bbf19842f533f4f8057f2a33)
 - Add files via upload [`448a6ab`](https://github.com/LLazyEmail/assemblya/commit/448a6abe822a94fe7227a5bb1c8c394828ea9593)
 - 333 [`6a1d06d`](https://github.com/LLazyEmail/assemblya/commit/6a1d06d93c4c383796175c5e760907ea4d7d8602)
 - 111 [`2edf467`](https://github.com/LLazyEmail/assemblya/commit/2edf467a6b59f0190a952dc28c1828e2950e201e)
