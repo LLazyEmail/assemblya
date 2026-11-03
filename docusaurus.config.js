@@ -12,13 +12,13 @@ const config = {
   tagline: 'Modular payload delivery platform — veterans-led engineering docs',
   favicon: 'img/favicon.ico',
 
-  // GitHub Pages project site (fork): https://llazyemail.github.io/assemblya/
-  // Upstream personal site remains: https://atherdon.github.io/assemblya/
-  url: 'https://llazyemail.github.io',
+  // GitHub Pages (live): https://atherdon.github.io/assemblya/
+  // LLazyEmail org Pages is not configured; keep url/baseUrl aligned with the live host.
+  url: 'https://atherdon.github.io',
   baseUrl: '/assemblya/',
 
-  // GitHub pages deployment config (this fork).
-  organizationName: 'LLazyEmail',
+  // GitHub pages deployment config (live host atherdon/assemblya).
+  organizationName: 'atherdon',
   projectName: 'assemblya',
   trailingSlash: false,
 
