@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- chore: recommend VS Code extensions for docs contributors [`#49`](https://github.com/LLazyEmail/assemblya/pull/49)
 - docs(uk): add communication/report.md to match EN [`#29`](https://github.com/LLazyEmail/assemblya/pull/29)
 - docs: add EN competitors/rm.md to match UK locale [`#28`](https://github.com/LLazyEmail/assemblya/pull/28)
 - chore: add pull request template (EN/UK checklist) [`#24`](https://github.com/LLazyEmail/assemblya/pull/24)
@@ -212,6 +213,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - chore: add npm run ci and docs:uk convenience scripts [`14e5257`](https://github.com/LLazyEmail/assemblya/commit/14e525780ddeb34bc94d4b45db75c7f031f82704)
 - Update index.tsx [`8bec8f9`](https://github.com/LLazyEmail/assemblya/commit/8bec8f919ebbd6530115d8b3e74da447a3bf0156)
 - Update team member name to 'Mr.Physicist' [`05c46e7`](https://github.com/LLazyEmail/assemblya/commit/05c46e7733493508cbeb65c648b2bbb026a5e792)
+- chore(changelog): regenerate after merged pull request [`f1ee64d`](https://github.com/LLazyEmail/assemblya/commit/f1ee64de3cb2b8e5b373e06dcbcb783343128b08)
 - chore(changelog): regenerate after merged pull request [`d17b7e0`](https://github.com/LLazyEmail/assemblya/commit/d17b7e0b355a09bd7eddbd811396e129e5b5f29c)
 - ci: drop lfs checkout on missing-images (assemblya LFS objects 404) [`93c9fb9`](https://github.com/LLazyEmail/assemblya/commit/93c9fb93403b37bafd0cb954f945e0c312c01d50)
 - ci: drop lfs checkout on i18n check (assemblya LFS objects 404) [`0ad05fc`](https://github.com/LLazyEmail/assemblya/commit/0ad05fc15f2bdcf4dd15192d065280cae4ac68e8)
