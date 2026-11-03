@@ -5,14 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
-- Forked to [LLazyEmail/assemblya](https://github.com/LLazyEmail/assemblya) for modernization work.
-
 ## 0.1.0
 
 ### Merged
 
+- ci: drop lfs checkout on format-check [`#61`](https://github.com/LLazyEmail/assemblya/pull/61)
+- ci: adopt documentation-actions docs-index [`#46`](https://github.com/LLazyEmail/assemblya/pull/46)
+- chore: add GitHub issue templates for docs and CI [`#44`](https://github.com/LLazyEmail/assemblya/pull/44)
 - docs: add static/llms.txt agent discovery stub [`#43`](https://github.com/LLazyEmail/assemblya/pull/43)
 - chore: add CODEOWNERS for atherdon [`#34`](https://github.com/LLazyEmail/assemblya/pull/34)
 - chore: add static/robots.txt allowing crawl [`#47`](https://github.com/LLazyEmail/assemblya/pull/47)
@@ -103,12 +102,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add files via upload [`bab0a0a`](https://github.com/LLazyEmail/assemblya/commit/bab0a0ae602f3430876412e25bfbb8180111c473)
 - Add project roadmap and specifications [`417e850`](https://github.com/LLazyEmail/assemblya/commit/417e8505408156f4c5701b2ecef5628af2dafd5b)
 - Update roadmap.md [`0c87202`](https://github.com/LLazyEmail/assemblya/commit/0c87202645e525821182a7acb3629e9d40164077)
+- style: apply Prettier formatting (batch 2) [`d8bc163`](https://github.com/LLazyEmail/assemblya/commit/d8bc1632d62114ede0ae46136bc208402c57eaa7)
 - fix: adopt documentation-actions workflows without LFS fetch [`98ec6e6`](https://github.com/LLazyEmail/assemblya/commit/98ec6e6da9cc68ee17eeea2ff1e5f4f0e3bf7695)
 - Update timeline.en.json [`88c6f3f`](https://github.com/LLazyEmail/assemblya/commit/88c6f3f260d07434e8a47ac41fe4276855c05201)
 - Update impart-effort-matrix1.md [`eef88d7`](https://github.com/LLazyEmail/assemblya/commit/eef88d7365678e2fc7bb09ef59ffcd965bc52e3e)
 - 122112 [`d49c46c`](https://github.com/LLazyEmail/assemblya/commit/d49c46cb4ffd510dd3f8fe5bee10d204c85fbb0d)
 - Create homepage features component [`497aac6`](https://github.com/LLazyEmail/assemblya/commit/497aac665ebb272c1669a095c98d1bafe241714c)
 - 111 [`f505505`](https://github.com/LLazyEmail/assemblya/commit/f505505d4f6a2b5d36c3b5b2d0a84c19f5446028)
+- style: apply Prettier formatting (batch 1/6) [`35565e3`](https://github.com/LLazyEmail/assemblya/commit/35565e3545c5ff52504599a25ca16d8384e5e6a5)
 - Update timeline.en.json [`5e67ee0`](https://github.com/LLazyEmail/assemblya/commit/5e67ee0b110bd3e0a8e032a360d6379e66374cdb)
 - Revise landing page and client engagement details [`d96aeb8`](https://github.com/LLazyEmail/assemblya/commit/d96aeb8a879665a372971785ec5ffb2aa420a771)
 - Add files via upload [`f9253af`](https://github.com/LLazyEmail/assemblya/commit/f9253af6d1ad0939b5c7dcfeb337521e6bd5c25c)
@@ -161,6 +162,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 111 [`67bb59c`](https://github.com/LLazyEmail/assemblya/commit/67bb59cf40e65309cd4ceccfd6ae6ce051543625)
 - 1111 [`f7c33e8`](https://github.com/LLazyEmail/assemblya/commit/f7c33e865d7dd91a280a3f1fe03aff39cf6db33a)
 - Update readme.md [`abe242b`](https://github.com/LLazyEmail/assemblya/commit/abe242b4040d861067c2e1c2880d1a277c52632a)
+- style: apply Prettier formatting (batch 3) [`9325b67`](https://github.com/LLazyEmail/assemblya/commit/9325b67cf31e5155605ae7c34c1ae0120e0d3c9d)
 - chore: regenerate package-lock after rebase [`bcec9d9`](https://github.com/LLazyEmail/assemblya/commit/bcec9d9ca5cafacab7f5f1836c22bac625d74d43)
 - chore: regenerate package-lock after rebase [`1105d9d`](https://github.com/LLazyEmail/assemblya/commit/1105d9ddbbcdcdfc8eb345766402cff5a28200f0)
 - master plan deploy [`daf90a7`](https://github.com/LLazyEmail/assemblya/commit/daf90a7cbff1fc0f87163fda231f70b5838a7c45)
@@ -211,6 +213,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - i command you to build [`2e9cd6b`](https://github.com/LLazyEmail/assemblya/commit/2e9cd6be217f1b257223db58a358ccccd22cee97)
 - 11 [`efe96dd`](https://github.com/LLazyEmail/assemblya/commit/efe96ddfe73ce9d86103749f16a1b7a3311d5e3b)
 - Update roadmap.md [`e224250`](https://github.com/LLazyEmail/assemblya/commit/e224250dc2fbd8aa13f5530268ab36f8a0e7dfc5)
+- chore(changelog): regenerate after merged pull request [`830ed78`](https://github.com/LLazyEmail/assemblya/commit/830ed78672c4aceef9d9b627c413dbf586a18717)
 - chore(changelog): regenerate after merged pull request [`36be54c`](https://github.com/LLazyEmail/assemblya/commit/36be54c388547d8cd4f650832edb44f891c856f9)
 - chore(changelog): regenerate after merged pull request [`39b506c`](https://github.com/LLazyEmail/assemblya/commit/39b506cccb5a6af716a8b759c383305b7b8d9b29)
 - chore: require Node.js &gt;=20 in package engines [`4858a27`](https://github.com/LLazyEmail/assemblya/commit/4858a2711424d840bc24bcea98849829f51314e3)
