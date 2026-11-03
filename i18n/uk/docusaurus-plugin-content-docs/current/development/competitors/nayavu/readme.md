@@ -11,15 +11,15 @@ sidebar_position: 10
 
 ## Images
 
-![nayavu-img1](./images/nayavu-img1.jpg)
+![nayavu-img1](/img/nayavu/one-drop/nayavu-img1.jpg)
 
-![nayavu-img2](./images/nayavu-img2.jpg)
+![nayavu-img2](/img/nayavu/one-drop/nayavu-img2.jpg)
 
-![nayavu-img3](./images/nayavu-img3.jpg)
+![nayavu-img3](/img/nayavu/one-drop/nayavu-img3.jpg)
 
-![nayavu-img4](./images/nayavu-img4.jpg)
+![nayavu-img4](/img/nayavu/one-drop/nayavu-img4.jpg)
 
-![nayavu-img5](./images/nayavu-img5.jpg)
+![nayavu-img5](/img/nayavu/one-drop/nayavu-img5.jpg)
 
 
 ---
