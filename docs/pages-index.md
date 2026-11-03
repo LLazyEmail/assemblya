@@ -20,25 +20,26 @@ sidebar_position: 999
 | 6 | `development/competitors/nayavu/readme.md` | Nayavu |
 | 7 | `development/competitors/nazarium/readme.md` | Nazarium |
 | 8 | `development/competitors/research.md` | Competitors research |
-| 9 | `development/competitors/steel-hornets/111/readme.md` | Steel Hornets Model 111 |
-| 10 | `development/competitors/steel-hornets/111/xxx.md` | Steel Hornets Model 111 Details |
-| 11 | `development/competitors/steel-hornets/222/dissasembled.md` | Steel Hornets Model 222 Disassembled |
-| 12 | `development/competitors/steel-hornets/222/readme.md` | Steel Hornets Model 222 |
-| 13 | `development/competitors/steel-hornets/cheap-steal/readme.md` | Steel Hornets Cheap Steal |
-| 14 | `development/competitors/steel-hornets/cheap-steel-hornets-drop/readme.md` | Cheap Steel Hornets Drop |
-| 15 | `development/competitors/steel-hornets/eng.md` | Steel Hornets Installation Guide |
-| 16 | `development/competitors/steel-hornets/plan.md` | Steel Hornets Plan |
-| 17 | `development/competitors/steel-hornets/readme.md` | Steel Hornets |
-| 18 | `development/competitors/steel-hornets/ua.md` | Steel Hornets Ukrainian Guide |
-| 19 | `development/competitors/vaaamp-drop/readme.md` | Vaaamp Drop |
-| 20 | `getting-started/intro.md` | Getting Started |
-| 21 | `getting-started/mission.md` | Mission |
-| 22 | `getting-started/overview.md` | AssemBLYA Drop Systems |
-| 23 | `specifications/3d/readme.md` | 3D Models |
-| 24 | `specifications/roadmap.md` | Roadmap |
-| 25 | `specifications/systems/houdini/3d/readme.md` | Houdini 3D |
-| 26 | `specifications/systems/houdini/readme.md` | Garry Houdini |
-| 27 | `specifications/systems/model-222/dissasembled.md` | Disassembled Drop System |
-| 28 | `specifications/systems/vampire-style/readme.md` | Vampire-style System |
-| 29 | `user-guide/communication/readme.md` | Communication |
-| 30 | `user-guide/orders/readme.md` | Orders |
+| 9 | `development/competitors/rm.md` | Competitors Notes |
+| 10 | `development/competitors/steel-hornets/111/readme.md` | Steel Hornets Model 111 |
+| 11 | `development/competitors/steel-hornets/111/xxx.md` | Steel Hornets Model 111 Details |
+| 12 | `development/competitors/steel-hornets/222/dissasembled.md` | Steel Hornets Model 222 Disassembled |
+| 13 | `development/competitors/steel-hornets/222/readme.md` | Steel Hornets Model 222 |
+| 14 | `development/competitors/steel-hornets/cheap-steal/readme.md` | Steel Hornets Cheap Steal |
+| 15 | `development/competitors/steel-hornets/cheap-steel-hornets-drop/readme.md` | Cheap Steel Hornets Drop |
+| 16 | `development/competitors/steel-hornets/eng.md` | Steel Hornets Installation Guide |
+| 17 | `development/competitors/steel-hornets/plan.md` | Steel Hornets Plan |
+| 18 | `development/competitors/steel-hornets/readme.md` | Steel Hornets |
+| 19 | `development/competitors/steel-hornets/ua.md` | Steel Hornets Ukrainian Guide |
+| 20 | `development/competitors/vaaamp-drop/readme.md` | Vaaamp Drop |
+| 21 | `getting-started/intro.md` | Getting Started |
+| 22 | `getting-started/mission.md` | Mission |
+| 23 | `getting-started/overview.md` | AssemBLYA Drop Systems |
+| 24 | `specifications/3d/readme.md` | 3D Models |
+| 25 | `specifications/roadmap.md` | Roadmap |
+| 26 | `specifications/systems/houdini/3d/readme.md` | Houdini 3D |
+| 27 | `specifications/systems/houdini/readme.md` | Garry Houdini |
+| 28 | `specifications/systems/model-222/dissasembled.md` | Disassembled Drop System |
+| 29 | `specifications/systems/vampire-style/readme.md` | Vampire-style System |
+| 30 | `user-guide/communication/readme.md` | Communication |
+| 31 | `user-guide/orders/readme.md` | Orders |
