@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- docs: add static/llms.txt agent discovery stub [`#43`](https://github.com/LLazyEmail/assemblya/pull/43)
+- chore: add CODEOWNERS for atherdon [`#34`](https://github.com/LLazyEmail/assemblya/pull/34)
 - chore: add static/robots.txt allowing crawl [`#47`](https://github.com/LLazyEmail/assemblya/pull/47)
 - chore: add cspell dictionary stub for EN/UK docs [`#48`](https://github.com/LLazyEmail/assemblya/pull/48)
 - chore: recommend VS Code extensions for docs contributors [`#49`](https://github.com/LLazyEmail/assemblya/pull/49)
@@ -209,6 +211,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - i command you to build [`2e9cd6b`](https://github.com/LLazyEmail/assemblya/commit/2e9cd6be217f1b257223db58a358ccccd22cee97)
 - 11 [`efe96dd`](https://github.com/LLazyEmail/assemblya/commit/efe96ddfe73ce9d86103749f16a1b7a3311d5e3b)
 - Update roadmap.md [`e224250`](https://github.com/LLazyEmail/assemblya/commit/e224250dc2fbd8aa13f5530268ab36f8a0e7dfc5)
+- chore(changelog): regenerate after merged pull request [`36be54c`](https://github.com/LLazyEmail/assemblya/commit/36be54c388547d8cd4f650832edb44f891c856f9)
 - chore(changelog): regenerate after merged pull request [`39b506c`](https://github.com/LLazyEmail/assemblya/commit/39b506cccb5a6af716a8b759c383305b7b8d9b29)
 - chore: require Node.js &gt;=20 in package engines [`4858a27`](https://github.com/LLazyEmail/assemblya/commit/4858a2711424d840bc24bcea98849829f51314e3)
 - fix: warn on broken markdown images so build can complete [`00f0a81`](https://github.com/LLazyEmail/assemblya/commit/00f0a81254ba546e6befc4df769f732d611c9ab2)
