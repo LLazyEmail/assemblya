@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- chore: add static/robots.txt allowing crawl [`#47`](https://github.com/LLazyEmail/assemblya/pull/47)
+- chore: add cspell dictionary stub for EN/UK docs [`#48`](https://github.com/LLazyEmail/assemblya/pull/48)
 - chore: recommend VS Code extensions for docs contributors [`#49`](https://github.com/LLazyEmail/assemblya/pull/49)
 - docs(uk): add communication/report.md to match EN [`#29`](https://github.com/LLazyEmail/assemblya/pull/29)
 - docs: add EN competitors/rm.md to match UK locale [`#28`](https://github.com/LLazyEmail/assemblya/pull/28)
@@ -210,6 +212,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update index.tsx [`ba1e056`](https://github.com/LLazyEmail/assemblya/commit/ba1e05664dfc0c960120435e234f06dfac0a62f2)
 - Delete docs/master-plan-v1.png [`8051c99`](https://github.com/LLazyEmail/assemblya/commit/8051c99e69fbc1515488079a06c018180076cf2e)
 - Create babel.config.js [`6d8facd`](https://github.com/LLazyEmail/assemblya/commit/6d8facdb165c05d01b2ffaedbd2c144e6e9eac45)
+- chore(changelog): regenerate after merged pull request [`ff9eec0`](https://github.com/LLazyEmail/assemblya/commit/ff9eec06b634b8868a6f38964996a74fed0fee6d)
 - chore: add npm run ci and docs:uk convenience scripts [`14e5257`](https://github.com/LLazyEmail/assemblya/commit/14e525780ddeb34bc94d4b45db75c7f031f82704)
 - Update index.tsx [`8bec8f9`](https://github.com/LLazyEmail/assemblya/commit/8bec8f919ebbd6530115d8b3e74da447a3bf0156)
 - Update team member name to 'Mr.Physicist' [`05c46e7`](https://github.com/LLazyEmail/assemblya/commit/05c46e7733493508cbeb65c648b2bbb026a5e792)
