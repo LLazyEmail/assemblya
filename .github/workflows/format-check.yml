@@ -23,6 +23,5 @@ jobs:
       working-directory: .
       cache-dependency-path: package-lock.json
       node-version: '24'
-      lfs: true
       job-name: Prettier format check
       run-command: npm run format:check
