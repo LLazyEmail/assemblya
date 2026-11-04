@@ -44,8 +44,11 @@
 .item {
   border: 1px solid var(--aa-line);
   border-radius: 0.35rem;
-  background:
-    linear-gradient(165deg, rgba(244, 246, 239, 0.95), rgba(207, 215, 196, 0.4));
+  background: linear-gradient(
+    165deg,
+    rgba(244, 246, 239, 0.95),
+    rgba(207, 215, 196, 0.4)
+  );
   animation: riseIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
   overflow: hidden;
 }
@@ -126,8 +129,11 @@
 }
 
 [data-theme='dark'] .item {
-  background:
-    linear-gradient(165deg, rgba(28, 37, 32, 0.98), rgba(29, 38, 33, 0.85));
+  background: linear-gradient(
+    165deg,
+    rgba(28, 37, 32, 0.98),
+    rgba(29, 38, 33, 0.85)
+  );
 }
 
 [data-theme='dark'] .open {

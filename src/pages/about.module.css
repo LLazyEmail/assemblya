@@ -86,8 +86,11 @@
   position: relative;
   overflow: hidden;
   aspect-ratio: 4 / 5;
-  background:
-    linear-gradient(165deg, rgba(47, 107, 79, 0.18), rgba(74, 109, 124, 0.22));
+  background: linear-gradient(
+    165deg,
+    rgba(47, 107, 79, 0.18),
+    rgba(74, 109, 124, 0.22)
+  );
   isolation: isolate;
 }
 
@@ -95,8 +98,11 @@
   content: '';
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(120% 80% at 50% 100%, rgba(21, 32, 25, 0.18), transparent 55%);
+  background: radial-gradient(
+    120% 80% at 50% 100%,
+    rgba(21, 32, 25, 0.18),
+    transparent 55%
+  );
   pointer-events: none;
   z-index: 1;
 }
@@ -118,8 +124,11 @@
   font-weight: 700;
   letter-spacing: -0.04em;
   color: rgba(244, 246, 239, 0.92);
-  background:
-    linear-gradient(155deg, var(--aa-forest) 0%, var(--aa-steel) 100%);
+  background: linear-gradient(
+    155deg,
+    var(--aa-forest) 0%,
+    var(--aa-steel) 100%
+  );
 }
 
 .member:hover .photo,
@@ -175,8 +184,11 @@
 }
 
 [data-theme='dark'] .portrait {
-  background:
-    linear-gradient(165deg, rgba(63, 154, 111, 0.22), rgba(126, 160, 176, 0.18));
+  background: linear-gradient(
+    165deg,
+    rgba(63, 154, 111, 0.22),
+    rgba(126, 160, 176, 0.18)
+  );
 }
 
 [data-theme='dark'] .memberRole {
@@ -184,6 +196,5 @@
 }
 
 [data-theme='dark'] .photoFallback {
-  background:
-    linear-gradient(155deg, #2a5640 0%, #3d5c6b 100%);
+  background: linear-gradient(155deg, #2a5640 0%, #3d5c6b 100%);
 }

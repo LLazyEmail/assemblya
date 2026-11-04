@@ -1,4 +1,4 @@
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -7,7 +7,7 @@ import teamEn from '../data/team.en.json';
 import teamUk from '../data/team.uk.json';
 
 import styles from './about.module.css';
-import type {JSX} from 'react';
+import type { JSX } from 'react';
 
 type TeamMember = {
   id: string;
@@ -17,7 +17,7 @@ type TeamMember = {
   image?: string;
 };
 
-function MemberPortrait({member}: {member: TeamMember}): JSX.Element {
+function MemberPortrait({ member }: { member: TeamMember }): JSX.Element {
   const imageUrl = useBaseUrl(member.image ?? '/img/logo.svg');
 
   if (member.image) {
@@ -41,18 +41,18 @@ function MemberPortrait({member}: {member: TeamMember}): JSX.Element {
 }
 
 function About(): JSX.Element {
-  const {i18n} = useDocusaurusContext();
-  const members: TeamMember[] =
-    i18n.currentLocale === 'uk' ? teamUk : teamEn;
+  const { i18n } = useDocusaurusContext();
+  const members: TeamMember[] = i18n.currentLocale === 'uk' ? teamUk : teamEn;
 
   return (
     <Layout
-      title={translate({id: 'about.meta.title', message: 'About us'})}
+      title={translate({ id: 'about.meta.title', message: 'About us' })}
       description={translate({
         id: 'about.meta.description',
         message:
           'Meet the AssemBLYA team — veterans-led engineers building modular drop systems.',
-      })}>
+      })}
+    >
       <main className={styles.page}>
         <header className={styles.hero}>
           <p className={styles.brand}>AssemBLYA</p>
@@ -68,13 +68,18 @@ function About(): JSX.Element {
           </p>
         </header>
 
-        <section className={styles.teamSection} aria-labelledby="about-team-heading">
+        <section
+          className={styles.teamSection}
+          aria-labelledby="about-team-heading"
+        >
           <div className={styles.teamIntro}>
             <p className={styles.eyebrow}>
               <Translate id="about.team.eyebrow">Our people</Translate>
             </p>
             <h2 id="about-team-heading" className={styles.sectionTitle}>
-              <Translate id="about.team.title">The team behind the systems</Translate>
+              <Translate id="about.team.title">
+                The team behind the systems
+              </Translate>
             </h2>
             <p className={styles.sectionLede}>
               <Translate id="about.team.lede">
@@ -89,7 +94,8 @@ function About(): JSX.Element {
               <article
                 key={member.id}
                 className={styles.member}
-                style={{animationDelay: `${0.05 + index * 0.04}s`}}>
+                style={{ animationDelay: `${0.05 + index * 0.04}s` }}
+              >
                 <div className={styles.portrait}>
                   <MemberPortrait member={member} />
                 </div>

@@ -13,9 +13,6 @@ sidebar_position: 1
 
 ![Iterations plan](/img/plan/ItterationsPlan.jpg)
 
-
-
-
 ## Drop system types
 
 Target payload configurations:
@@ -40,21 +37,20 @@ Related notes also live under [Vampire-style system](./systems/vampire-style/rea
 
 ## Cost and scale goals
 
-| Category | Goal / Requirement |
-|---|---|
-| **Core objective** | Adapt proven ideas to reduce unit cost. |
-| **Production scale** | Target **10×**, **30×**, and **50×** production capacity. |
-| **System ownership** | Develop and own a dual-payload drop system. |
-| **Dropper cage styles** | Explore Butterfly-style and IQOS-style dropper cages. |
-| **Payload variations** | Support presents with different weights and dimensions. |
-
+| Category                | Goal / Requirement                                        |
+| ----------------------- | --------------------------------------------------------- |
+| **Core objective**      | Adapt proven ideas to reduce unit cost.                   |
+| **Production scale**    | Target **10×**, **30×**, and **50×** production capacity. |
+| **System ownership**    | Develop and own a dual-payload drop system.               |
+| **Dropper cage styles** | Explore Butterfly-style and IQOS-style dropper cages.     |
+| **Payload variations**  | Support presents with different weights and dimensions.   |
 
 ## Electronics (working notes)
 
-| Board | Approx. cost |
-| --- | --- |
-| Nano Arduino clone | ~80 UAH |
-| Micro Arduino clone | ~230 UAH |
+| Board               | Approx. cost |
+| ------------------- | ------------ |
+| Nano Arduino clone  | ~80 UAH      |
+| Micro Arduino clone | ~230 UAH     |
 
 Servo sourcing notes: [Orders](../user-guide/orders/readme.md).
 
@@ -70,16 +66,15 @@ Servo sourcing notes: [Orders](../user-guide/orders/readme.md).
 
 ## Near-term work
 
-| Workstream | Activities |
-|---|---|
-| **Imagery and documentation** | Prepare product imagery, technical documentation, and reference materials. |
-| **Payload characterization** | Weigh payloads and evaluate their dimensions, balance, and scalability. |
-| **Actuation components** | Source suitable servos and assess their performance, availability, and integration requirements. |
-| **Cross-unit collaboration** | Conduct discussions with other units to identify partnership opportunities, shared requirements, and technical dependencies. |
-| **3D modeling** | Develop and iterate 3D models based on test results, fit checks, and design feedback. |
-| **Competitive benchmarking** | Disassemble competitor systems for reference, with appropriate attention to safety and legal considerations. |
-| **Prototyping and testing** | Print prototype parts and conduct bench tests to evaluate fit, function, durability, and repeatability. |
-
+| Workstream                    | Activities                                                                                                                   |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Imagery and documentation** | Prepare product imagery, technical documentation, and reference materials.                                                   |
+| **Payload characterization**  | Weigh payloads and evaluate their dimensions, balance, and scalability.                                                      |
+| **Actuation components**      | Source suitable servos and assess their performance, availability, and integration requirements.                             |
+| **Cross-unit collaboration**  | Conduct discussions with other units to identify partnership opportunities, shared requirements, and technical dependencies. |
+| **3D modeling**               | Develop and iterate 3D models based on test results, fit checks, and design feedback.                                        |
+| **Competitive benchmarking**  | Disassemble competitor systems for reference, with appropriate attention to safety and legal considerations.                 |
+| **Prototyping and testing**   | Print prototype parts and conduct bench tests to evaluate fit, function, durability, and repeatability.                      |
 
 ## Reference links
 

@@ -1,21 +1,24 @@
 import Link from '@docusaurus/Link';
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
-import type {JSX} from 'react';
+import type { JSX } from 'react';
 
 function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   const heroImage = useBaseUrl('/img/social/hero-unit.png');
   const missionImage = useBaseUrl('/img/mission-field.jpg');
   const ukGettingStarted = useBaseUrl('/docs/getting-started');
 
   const exploreLinks = [
     {
-      title: translate({id: 'home.explore.mission.title', message: 'Mission'}),
+      title: translate({
+        id: 'home.explore.mission.title',
+        message: 'Mission',
+      }),
       description: translate({
         id: 'home.explore.mission.desc',
         message: 'Why AssemBLYA exists, how we work, and what we optimize for.',
@@ -24,7 +27,10 @@ function Home(): JSX.Element {
       icon: 'fa-solid fa-compass',
     },
     {
-      title: translate({id: 'home.explore.roadmap.title', message: 'Roadmap'}),
+      title: translate({
+        id: 'home.explore.roadmap.title',
+        message: 'Roadmap',
+      }),
       description: translate({
         id: 'home.explore.roadmap.desc',
         message: 'Drop types, cost goals, and the next production milestones.',
@@ -46,10 +52,14 @@ function Home(): JSX.Element {
       icon: 'fa-solid fa-binoculars',
     },
     {
-      title: translate({id: 'home.explore.houdini.title', message: 'Houdini'}),
+      title: translate({
+        id: 'home.explore.houdini.title',
+        message: 'Houdini',
+      }),
       description: translate({
         id: 'home.explore.houdini.desc',
-        message: 'Garry Houdini drop documentation, imagery, and related notes.',
+        message:
+          'Garry Houdini drop documentation, imagery, and related notes.',
       }),
       to: '/docs/specifications/systems/houdini',
       icon: 'fa-solid fa-cube',
@@ -58,7 +68,10 @@ function Home(): JSX.Element {
 
   const principles = [
     {
-      title: translate({id: 'home.principle.simpler.title', message: 'Simpler'}),
+      title: translate({
+        id: 'home.principle.simpler.title',
+        message: 'Simpler',
+      }),
       text: translate({
         id: 'home.principle.simpler.text',
         message: 'Fewer parts, clearer assembly, faster field repair.',
@@ -143,17 +156,19 @@ function Home(): JSX.Element {
         id: 'home.meta.description',
         message:
           'AssemBLYA is a veterans-led modular payload delivery platform — simpler, more reliable, and more affordable with every generation.',
-      })}>
+      })}
+    >
       <main className={styles.page}>
         <section
           className={styles.hero}
           aria-label={translate({
             id: 'home.hero.aria',
             message: 'AssemBLYA introduction',
-          })}>
+          })}
+        >
           <div
             className={styles.heroMedia}
-            style={{backgroundImage: `url(${heroImage})`}}
+            style={{ backgroundImage: `url(${heroImage})` }}
             role="img"
             aria-label={translate({
               id: 'home.hero.imageAlt',
@@ -163,7 +178,7 @@ function Home(): JSX.Element {
           <div className={styles.heroVeil} />
           <div className={styles.heroInner}>
             {/*<p className={styles.brand}>{siteConfig.title}</p>*/}
-           {/* <h2 className={styles.headline}>
+            {/* <h2 className={styles.headline}>
               <Translate id="home.hero.headline.line1">One modular platform. </Translate>
               
               <Translate id="home.hero.headline.line2">Many missions.</Translate>
@@ -176,40 +191,47 @@ function Home(): JSX.Element {
             <p className={styles.lede}><Translate id="home.hero.lede">
                 Payload delivery system that gets simpler, tougher, and cheaper every generation.
               </Translate></p>*/}
-            
+
             <div className={styles.ctaRow}>
               <Link
                 className={styles.ctaPrimary}
-                to="/docs/getting-started/overview">
-                <Translate id="home.hero.cta.overview">Read the overview</Translate>
+                to="/docs/getting-started/overview"
+              >
+                <Translate id="home.hero.cta.overview">
+                  Read the overview
+                </Translate>
               </Link>
               <Link
                 className={styles.ctaSecondary}
-                to="/docs/specifications/roadmap">
-                <Translate id="home.hero.cta.roadmap">See the roadmap</Translate>
+                to="/docs/specifications/roadmap"
+              >
+                <Translate id="home.hero.cta.roadmap">
+                  See the roadmap
+                </Translate>
               </Link>
             </div>
           </div>
         </section>
- <section className={styles.mission}>
-   <div className={styles.missionCopy}>
+        <section className={styles.mission}>
+          <div className={styles.missionCopy}>
             <p className={styles.sectionEyebrow}>
-              <Translate id="home.mission.eyebrow">Veterans-led engineering</Translate>
-
- 
+              <Translate id="home.mission.eyebrow">
+                Veterans-led engineering
+              </Translate>
             </p>
             <h2 className={styles.sectionTitle}>
               <Translate id="home.mission.title">
-                Payload delivery system that gets simpler, tougher, and cheaper every generation.
+                Payload delivery system that gets simpler, tougher, and cheaper
+                every generation.
               </Translate>
-            </h2> 
-     <p className={styles.sectionBody}>
+            </h2>
+            <p className={styles.sectionBody}>
               <Translate id="home.mission.body">
-               One modular platform. Many missions.
+                One modular platform. Many missions.
               </Translate>
             </p>
-   </div>
- </section>
+          </div>
+        </section>
         <section className={styles.mission}>
           <div className={styles.missionCopy}>
             <p className={styles.sectionEyebrow}>
@@ -222,12 +244,15 @@ function Home(): JSX.Element {
             </h2>
             <p className={styles.sectionBody}>
               <Translate id="home.mission.body">
-                AssemBLYA is not a margin machine. It is a modular ecosystem aimed
-                at units and partners who need reliable drop systems they can
-                manufacture, repair, and scale.
+                AssemBLYA is not a margin machine. It is a modular ecosystem
+                aimed at units and partners who need reliable drop systems they
+                can manufacture, repair, and scale.
               </Translate>
             </p>
-            <Link className={styles.textLink} to="/docs/getting-started/mission">
+            <Link
+              className={styles.textLink}
+              to="/docs/getting-started/mission"
+            >
               <Translate id="home.mission.cta">Full mission</Translate>{' '}
               <i className="fa-solid fa-arrow-right" aria-hidden="true" />
             </Link>
@@ -250,12 +275,14 @@ function Home(): JSX.Element {
               <Translate id="home.explore.eyebrow">Start exploring</Translate>
             </p>
             <h2 className={styles.sectionTitle}>
-              <Translate id="home.explore.title">Documentation built for builders</Translate>
+              <Translate id="home.explore.title">
+                Documentation built for builders
+              </Translate>
             </h2>
             <p className={styles.sectionBody}>
               <Translate id="home.explore.body">
-                Jump straight into mission context, roadmap, competitor references,
-                or hardware notes.
+                Jump straight into mission context, roadmap, competitor
+                references, or hardware notes.
               </Translate>
             </p>
           </div>
@@ -278,7 +305,9 @@ function Home(): JSX.Element {
               <Translate id="home.principles.eyebrow">Principles</Translate>
             </p>
             <h2 className={styles.sectionTitle}>
-              <Translate id="home.principles.title">Every new version should be</Translate>
+              <Translate id="home.principles.title">
+                Every new version should be
+              </Translate>
             </h2>
           </div>
           <ul className={styles.principleList}>

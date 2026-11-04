@@ -9,8 +9,6 @@ sidebar_position: 10
 
 ## Images
 
-
-
 ![steel-hornets-111-img1](/img/steel-hornets/111/steel-hornets-111-img1.jpg)
 
 ![steel-hornets-111-img2](/img/steel-hornets/111/steel-hornets-111-img2.jpg)
@@ -50,5 +48,3 @@ sidebar_position: 10
 ![steel-hornets-111-img19](/img/steel-hornets/111/steel-hornets-111-img19.jpg)
 
 ![steel-hornets-111-img20](/img/steel-hornets/111/steel-hornets-111-img20.jpg)
-
-

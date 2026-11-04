@@ -7,7 +7,6 @@ sidebar_position: 20
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
 # xxx
 
 <img src={useBaseUrl('/img/steel-hornets/111/steel-hornets-111-img20.jpg')} alt="Jun 21, 2026, 10_02_36 PM" width="400" loading="lazy" />

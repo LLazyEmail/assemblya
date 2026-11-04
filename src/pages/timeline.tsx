@@ -1,4 +1,4 @@
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
@@ -6,7 +6,7 @@ import timelineEn from '../data/timeline.en.json';
 import timelineUk from '../data/timeline.uk.json';
 
 import styles from './timeline.module.css';
-import type {JSX} from 'react';
+import type { JSX } from 'react';
 
 type TimelineItem = {
   id: string;
@@ -20,17 +20,18 @@ type TimelineSection = {
 };
 
 function Timeline(): JSX.Element {
-  const {i18n} = useDocusaurusContext();
+  const { i18n } = useDocusaurusContext();
   const sections: TimelineSection[] =
     i18n.currentLocale === 'uk' ? timelineUk : timelineEn;
 
   return (
     <Layout
-      title={translate({id: 'timeline.meta.title', message: 'Timeline'})}
+      title={translate({ id: 'timeline.meta.title', message: 'Timeline' })}
       description={translate({
         id: 'timeline.meta.description',
         message: 'AssemBLYA timeline — milestones and project history.',
-      })}>
+      })}
+    >
       <main className={styles.page}>
         <header className={styles.hero}>
           <p className={styles.brand}>AssemBLYA</p>
@@ -49,7 +50,8 @@ function Timeline(): JSX.Element {
             <section
               key={section.year}
               className={styles.section}
-              style={{animationDelay: `${0.06 + sectionIndex * 0.05}s`}}>
+              style={{ animationDelay: `${0.06 + sectionIndex * 0.05}s` }}
+            >
               <div className={styles.sectionTitle}>{section.year}</div>
               <div className={styles.sectionContent}>
                 {section.items.map((item) => (

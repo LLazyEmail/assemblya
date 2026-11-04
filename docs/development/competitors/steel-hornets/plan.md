@@ -11,13 +11,11 @@ sidebar_position: 60
 4. Then we model all parts
 5. Then we upload to github
 
-
-
 Collect mone and order 3 drop systems to
+
 - Teufel
 - Simon NL
 - Yuriy S***
-
 
 - Zombie stealing money from Europeans on his Paypal zombieua2025@gmail.com
 - Zombie convert money to UAH and send them to Max
@@ -27,12 +25,10 @@ Collect mone and order 3 drop systems to
 2 drop systems goes to Florida man into this address
 1 drop goes to 3d print-farm
 
-
 <!--
 Benjamin Hoerber
-380975827150 
+380975827150
 Львів
 Нова Пошта но. 107
 
 -->
-

@@ -7,7 +7,6 @@ sidebar_position: 20
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
 # xxx2
 
 <img src={useBaseUrl('/img/steel-hornets/diss/IMG_20260621_233345_645.jpg')} alt="IMG_20260621_233345_645.jpg" style={{maxWidth: '800px', height: 'auto', display: 'block', margin: '0 auto'}} width={800} height={600} loading="lazy" />

@@ -54,4 +54,3 @@ Reference gallery of competitor drop systems and related modules.
 ![Screenshot 2026-06-25 06:34](/img/brav/screenshot-2026-06-25-0634.png)
 
 ![Drop module](/img/brav/drop-module.jpg)
-

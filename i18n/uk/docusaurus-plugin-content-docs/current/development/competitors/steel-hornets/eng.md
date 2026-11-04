@@ -13,9 +13,9 @@ sidebar_position: 50
 
 The release mechanism has a built-in 6S-to-5V BEC.
 
-* Solder the **brown wire** to the **negative (-)** battery input on the ESC.
-* Solder the **red wire** to the **positive (+)** battery input on the ESC.
-* Ideally, if you do not have a high-power soldering iron, solder directly to the terminals of the input capacitor.
+- Solder the **brown wire** to the **negative (-)** battery input on the ESC.
+- Solder the **red wire** to the **positive (+)** battery input on the ESC.
+- Ideally, if you do not have a high-power soldering iron, solder directly to the terminals of the input capacitor.
 
 ---
 
@@ -25,18 +25,18 @@ The **yellow signal wire** should be connected to a flight controller (FC) outpu
 
 Recommended outputs:
 
-* MOTOR 5–8
+- MOTOR 5–8
 
 If these outputs are unavailable, connect to an unused:
 
-* SERIAL_TX port
+- SERIAL_TX port
 
 provided it is not already used for:
 
-* RC Receiver (RX)
-* Video Transmitter (VTX)
-* GPS
-* Other peripherals
+- RC Receiver (RX)
+- Video Transmitter (VTX)
+- GPS
+- Other peripherals
 
 **IMPORTANT!**
 
@@ -58,9 +58,9 @@ Configure the flight controller according to the procedure shown in the followin
 
 Configure a three-position switch on your transmitter:
 
-* **Center position:** PWM = 1500 μs → both warheads remain locked.
-* **Position 1:** PWM = 1000 μs → releases the first payload.
-* **Position 2:** PWM = 2000 μs → releases the second payload.
+- **Center position:** PWM = 1500 μs → both warheads remain locked.
+- **Position 1:** PWM = 1000 μs → releases the first payload.
+- **Position 2:** PWM = 2000 μs → releases the second payload.
 
 ---
 
@@ -70,8 +70,8 @@ Configure a three-position switch on your transmitter:
 
 The release mechanism is designed for the standard PWM range:
 
-* 1000–2000 μs
-* (-100% to +100%)
+- 1000–2000 μs
+- (-100% to +100%)
 
 If your transmitter is configured to output values below -100% or above +100%, the servo and release mechanism may be damaged.
 
@@ -119,9 +119,9 @@ Instead, it **hooks onto** the T-shaped profile located on the top of the payloa
 
 Never connect or disconnect the release mechanism from:
 
-* the drone,
-* a servo tester,
-* or any other device generating a PWM signal
+- the drone,
+- a servo tester,
+- or any other device generating a PWM signal
 
 while the battery is connected.
 
@@ -129,9 +129,9 @@ Do not use connectors between the release mechanism and the drone.
 
 Failure to follow these requirements may damage:
 
-* the release mechanism,
-* the flight controller,
-* or other connected devices.
+- the release mechanism,
+- the flight controller,
+- or other connected devices.
 
 ---
 
@@ -143,8 +143,8 @@ It is strongly recommended to verify that your ESC is equipped with a genuine **
 
 Recently, many manufacturers have reduced costs by:
 
-* using lower-quality capacitors,
-* leaving capacitor leads excessively long.
+- using lower-quality capacitors,
+- leaving capacitor leads excessively long.
 
 This may cause failure of the BEC board inside the release mechanism.
 
@@ -156,6 +156,6 @@ Installation on the drone is performed using a proprietary aluminum mounting bra
 
 Use the included:
 
-* **4 × M4×8 screws**
+- **4 × M4×8 screws**
 
 to attach the release mechanism to the drone.

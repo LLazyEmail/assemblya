@@ -12,7 +12,7 @@ const config = {
   tagline: 'Modular payload delivery platform — veterans-led engineering docs',
   favicon: 'img/favicon.ico',
 
-// Canonical live site URL (upstream Pages host).
+  // Canonical live site URL (upstream Pages host).
   url: 'https://atherdon.github.io',
   baseUrl: '/assemblya/',
 
@@ -70,8 +70,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/LLazyEmail/assemblya/tree/main/',
+          editUrl: 'https://github.com/LLazyEmail/assemblya/tree/main/',
           editLocalizedFiles: true,
         },
         blog: false,
