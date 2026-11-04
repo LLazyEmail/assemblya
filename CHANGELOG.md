@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- perf: smaller steel-hornets competitor images + lazy MDX imgs [`#77`](https://github.com/LLazyEmail/assemblya/pull/77)
 - perf: smaller competitors/research images (brav batch 1/2) [`#75`](https://github.com/LLazyEmail/assemblya/pull/75)
 - chore: sync fork with atherdon/assemblya main (after #97) [`#73`](https://github.com/LLazyEmail/assemblya/pull/73)
 - fix: demigrate LFS media, useBaseUrl imgs, live Pages url, inline test-deploy [`#97`](https://github.com/LLazyEmail/assemblya/pull/97)
@@ -105,6 +106,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add reusable product template component [`c5b36e9`](https://github.com/LLazyEmail/assemblya/commit/c5b36e98cf0fa54a37391c5bce94dd88754b9a47)
 - Add files via upload [`ca07fca`](https://github.com/LLazyEmail/assemblya/commit/ca07fca0defd2f3d07a14689c284228dc104f7ea)
 - Add files via upload [`06891b3`](https://github.com/LLazyEmail/assemblya/commit/06891b3e7ad0282c82f5311ea6038cfc76cb3338)
+- perf: recompress steel-hornets competitor images + lazy-load MDX imgs [`321912f`](https://github.com/LLazyEmail/assemblya/commit/321912ff0839cac1d75f955f2e638bebee335db3)
 - chore: add auto-changelog script for CHANGELOG regeneration [`e03e862`](https://github.com/LLazyEmail/assemblya/commit/e03e862be4dda4bc1d20ade3012d54a463018587)
 - Create impart-effort-matrix1.md [`5dddc57`](https://github.com/LLazyEmail/assemblya/commit/5dddc57cd58c6b08bcc90c7cb8e8c23a235a45c0)
 - chore: add Prettier config and format scripts [`9fb8709`](https://github.com/LLazyEmail/assemblya/commit/9fb8709425a0172cd80b1bdf16addd185e9a2632)
@@ -239,6 +241,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - i command you to build [`2e9cd6b`](https://github.com/LLazyEmail/assemblya/commit/2e9cd6be217f1b257223db58a358ccccd22cee97)
 - 11 [`efe96dd`](https://github.com/LLazyEmail/assemblya/commit/efe96ddfe73ce9d86103749f16a1b7a3311d5e3b)
 - Update roadmap.md [`e224250`](https://github.com/LLazyEmail/assemblya/commit/e224250dc2fbd8aa13f5530268ab36f8a0e7dfc5)
+- chore(changelog): regenerate after merged pull request [`6669cfd`](https://github.com/LLazyEmail/assemblya/commit/6669cfda730fffee404194bfd6d9eb7324b08cec)
 - chore(changelog): regenerate after merged pull request [`830ed78`](https://github.com/LLazyEmail/assemblya/commit/830ed78672c4aceef9d9b627c413dbf586a18717)
 - chore(changelog): regenerate after merged pull request [`36be54c`](https://github.com/LLazyEmail/assemblya/commit/36be54c388547d8cd4f650832edb44f891c856f9)
 - chore(changelog): regenerate after merged pull request [`39b506c`](https://github.com/LLazyEmail/assemblya/commit/39b506cccb5a6af716a8b759c383305b7b8d9b29)
