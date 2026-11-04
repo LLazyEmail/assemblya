@@ -306,7 +306,7 @@ if (failures.length) {
   lines.push(`| Page | Kind | Ref | Issue |`);
   lines.push(`| --- | --- | --- | --- |`);
   for (const f of failures) {
-    const ref = f.ref.replace(/\|/g, '\\|');
+    const ref = f.ref.replace(/\\/g, '\\\\').replace(/\|/g, '\\|');
     lines.push(`| \`${f.page}\` | ${f.kind} | \`${ref}\` | ${f.issue} |`);
   }
   lines.push('');
