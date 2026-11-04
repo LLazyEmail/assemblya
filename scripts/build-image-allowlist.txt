@@ -1,0 +1,21 @@
+# Known-unrecoverable / stub assets still referenced in docs.
+# Paths may be basename, site path (/img/...), or raw ref as emitted in HTML.
+# Remove an entry only after the real asset is restored (never via Git LFS).
+
+# Empty stub PNGs (2-byte CRLF placeholders) under static/img
+/img/master-plan.png
+master-plan.png
+/img/Itterations-Plan.png
+Itterations-Plan.png
+/img/about-us/plague-doc.png
+plague-doc.png
+
+# Git LFS pointer still in tree (object 404 upstream); referenced from competitors teardown
+/img/steel-hornets/222/IMG_20260621_233121_089.jpg
+IMG_20260621_233121_089.jpg
+
+# docs/assets logos — LFS pointers; may appear as broken relative assets if copied into build
+logo1.png
+logo2.png
+/assets/logo1.png
+/assets/logo2.png
