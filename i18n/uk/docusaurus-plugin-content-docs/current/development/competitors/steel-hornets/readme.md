@@ -9,8 +9,8 @@ sidebar_position: 10
 
 ## Images
 
-![steel-hornets-img1](./images/steel-hornets-img1.jpg)
+![steel-hornets-img1](/img/hornets/two-drop/steel-hornets-img1.jpg)
 
-![steel-hornets-img2](./images/steel-hornets-img2.jpg)
+![steel-hornets-img2](/img/hornets/two-drop/steel-hornets-img2.jpg)
 
-![steel-hornets-img3](./images/steel-hornets-img3.jpg)
+![steel-hornets-img3](/img/hornets/two-drop/steel-hornets-img3.jpg)
