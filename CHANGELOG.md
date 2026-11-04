@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- style: apply prettier to 63 files never formatted on main [`#79`](https://github.com/LLazyEmail/assemblya/pull/79)
 - perf: smaller steel-hornets competitor images + lazy MDX imgs [`#77`](https://github.com/LLazyEmail/assemblya/pull/77)
 - perf: smaller competitors/research images (brav batch 1/2) [`#75`](https://github.com/LLazyEmail/assemblya/pull/75)
 - chore: sync fork with atherdon/assemblya main (after #97) [`#73`](https://github.com/LLazyEmail/assemblya/pull/73)
@@ -91,6 +92,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Commits
 
 - Create bikini.html [`9a75074`](https://github.com/LLazyEmail/assemblya/commit/9a75074a15c223b602b7fb0741f130f18035b70d)
+- style: apply prettier to files never formatted on main [`8418f8d`](https://github.com/LLazyEmail/assemblya/commit/8418f8d12b4fcb10a0d8f4c97b04e78824892679)
 - chore(changelog): regenerate after merged pull request [`a7e5327`](https://github.com/LLazyEmail/assemblya/commit/a7e5327e38bfdb11664a7232c293a399e959a3c4)
 - chore(changelog): regenerate after merged pull request [`acbac9f`](https://github.com/LLazyEmail/assemblya/commit/acbac9fce1aef2a523c05167bbc68f7dd7c6415d)
 - chore(changelog): regenerate after merged pull request [`4722eb1`](https://github.com/LLazyEmail/assemblya/commit/4722eb10b4374d18e97291faf79a78d0ec5e2dfb)
@@ -241,6 +243,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - i command you to build [`2e9cd6b`](https://github.com/LLazyEmail/assemblya/commit/2e9cd6be217f1b257223db58a358ccccd22cee97)
 - 11 [`efe96dd`](https://github.com/LLazyEmail/assemblya/commit/efe96ddfe73ce9d86103749f16a1b7a3311d5e3b)
 - Update roadmap.md [`e224250`](https://github.com/LLazyEmail/assemblya/commit/e224250dc2fbd8aa13f5530268ab36f8a0e7dfc5)
+- chore(changelog): regenerate after merged pull request [`c86eb00`](https://github.com/LLazyEmail/assemblya/commit/c86eb00325b875b05f7831654ac68c282d60be70)
 - chore(changelog): regenerate after merged pull request [`6669cfd`](https://github.com/LLazyEmail/assemblya/commit/6669cfda730fffee404194bfd6d9eb7324b08cec)
 - chore(changelog): regenerate after merged pull request [`830ed78`](https://github.com/LLazyEmail/assemblya/commit/830ed78672c4aceef9d9b627c413dbf586a18717)
 - chore(changelog): regenerate after merged pull request [`36be54c`](https://github.com/LLazyEmail/assemblya/commit/36be54c388547d8cd4f650832edb44f891c856f9)
