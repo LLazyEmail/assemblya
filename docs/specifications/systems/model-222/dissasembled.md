@@ -76,4 +76,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/steel-hornets/222/IMG_20260621_233134_386.jpg')} alt="IMG_20260621_233134_386.jpg" style={{maxWidth: '800px', height: 'auto', display: 'block', margin: '0 auto'}} />
 
 <img src={useBaseUrl('/img/steel-hornets/diss/IMG_20260621_233326_662.jpg')} alt="IMG_20260621_233326_662.jpg" style={{maxWidth: '800px', height: 'auto', display: 'block', margin: '0 auto'}} />
-
