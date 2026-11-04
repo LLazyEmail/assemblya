@@ -9,13 +9,13 @@ sidebar_position: 1
 
 Reference gallery of competitor drop systems and related modules.
 
-![Drop system](/img/brav/drop-system.png)
+![Drop system](/img/brav/drop-system.jpg)
 
-![FPV dual drop up to 10 kg](/img/brav/fpv-dual-drop-10kg.png)
+![FPV dual drop up to 10 kg](/img/brav/fpv-dual-drop-10kg.jpg)
 
 ![Universal reinforced drop system](/img/brav/universal-reinforced-drop-system.png)
 
-![Arachna net launcher](/img/brav/arachna-net-launcher.png)
+![Arachna net launcher](/img/brav/arachna-net-launcher.jpg)
 
 ![Servo rail with BEC](/img/brav/servo-rail-with-bec.png)
 
@@ -25,9 +25,9 @@ Reference gallery of competitor drop systems and related modules.
 
 ![Single drop system F1](/img/brav/single-drop-system-f1.png)
 
-![LuckyStrike drop module](/img/brav/luckystrike-drop-module.png)
+![LuckyStrike drop module](/img/brav/luckystrike-drop-module.jpg)
 
-![CAN Servo module X4E6](/img/brav/can-servo-module-x4e6.png)
+![CAN Servo module X4E6](/img/brav/can-servo-module-x4e6.jpg)
 
 ![YOYO Autel 4T](/img/brav/yoyo-autel-4t.png)
 
@@ -35,17 +35,17 @@ Reference gallery of competitor drop systems and related modules.
 
 ![OmniDrop](/img/brav/omnidrop.png)
 
-![FPV BlueBird Tech](/img/brav/fpv-bluebird-tech.png)
+![FPV BlueBird Tech](/img/brav/fpv-bluebird-tech.jpg)
 
-![FPV drop up to 10 kg](/img/brav/fpv-drop-10kg.png)
+![FPV drop up to 10 kg](/img/brav/fpv-drop-10kg.jpg)
 
-![FPV drones](/img/brav/fpv-drones.png)
+![FPV drones](/img/brav/fpv-drones.jpg)
 
-![FPV DS-2 cargo up to 10 kg](/img/brav/fpv-ds2-cargo-10kg.png)
+![FPV DS-2 cargo up to 10 kg](/img/brav/fpv-ds2-cargo-10kg.jpg)
 
-![DJI Matrice 30T](/img/brav/dji-matrice-30t.png)
+![DJI Matrice 30T](/img/brav/dji-matrice-30t.jpg)
 
-![Autel EVO II](/img/brav/autel-evo-ii.png)
+![Autel EVO II](/img/brav/autel-evo-ii.jpg)
 
 ![Screenshot 2026-06-25 06:35](/img/brav/screenshot-2026-06-25-0635.png)
 
@@ -53,5 +53,5 @@ Reference gallery of competitor drop systems and related modules.
 
 ![Screenshot 2026-06-25 06:34](/img/brav/screenshot-2026-06-25-0634.png)
 
-![Drop module](/img/brav/drop-module.png)
+![Drop module](/img/brav/drop-module.jpg)
 
