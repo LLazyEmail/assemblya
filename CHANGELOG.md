@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- perf: smaller competitors/research images (brav batch 1/2) [`#75`](https://github.com/LLazyEmail/assemblya/pull/75)
 - chore: sync fork with atherdon/assemblya main (after #97) [`#73`](https://github.com/LLazyEmail/assemblya/pull/73)
 - fix: demigrate LFS media, useBaseUrl imgs, live Pages url, inline test-deploy [`#97`](https://github.com/LLazyEmail/assemblya/pull/97)
 - fix: replace Git LFS pointer binaries in i18n/uk docs (2/2) [`#67`](https://github.com/LLazyEmail/assemblya/pull/67)
@@ -89,6 +90,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Commits
 
 - Create bikini.html [`9a75074`](https://github.com/LLazyEmail/assemblya/commit/9a75074a15c223b602b7fb0741f130f18035b70d)
+- chore(changelog): regenerate after merged pull request [`a7e5327`](https://github.com/LLazyEmail/assemblya/commit/a7e5327e38bfdb11664a7232c293a399e959a3c4)
 - chore(changelog): regenerate after merged pull request [`acbac9f`](https://github.com/LLazyEmail/assemblya/commit/acbac9fce1aef2a523c05167bbc68f7dd7c6415d)
 - chore(changelog): regenerate after merged pull request [`4722eb1`](https://github.com/LLazyEmail/assemblya/commit/4722eb10b4374d18e97291faf79a78d0ec5e2dfb)
 - Add files via upload [`6a43398`](https://github.com/LLazyEmail/assemblya/commit/6a433983b58140a05537f43a919b22c888292a37)
@@ -132,6 +134,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Revise landing page and client engagement details [`d96aeb8`](https://github.com/LLazyEmail/assemblya/commit/d96aeb8a879665a372971785ec5ffb2aa420a771)
 - Add files via upload [`f9253af`](https://github.com/LLazyEmail/assemblya/commit/f9253af6d1ad0939b5c7dcfeb337521e6bd5c25c)
 - ci: adopt documentation-actions Pages deploy [`5f2f85d`](https://github.com/LLazyEmail/assemblya/commit/5f2f85defaab6ff84ee8a3868cf36f60d7549797)
+- perf: recompress competitors research brav images batch 1 (PNG→JPEG) [`54dee4a`](https://github.com/LLazyEmail/assemblya/commit/54dee4a8652c002e287d7e7fb058c4ce7c8956f7)
 - fix: enable Git LFS on Actions checkout for builds [`1d70ac1`](https://github.com/LLazyEmail/assemblya/commit/1d70ac16b2dddb8884bc9eba49e6bcae70228540)
 - Add initial draft for communication document [`3c1900f`](https://github.com/LLazyEmail/assemblya/commit/3c1900f93c7942bf60d190febc2b45c9fc8dbcc2)
 - Create package.json for Docusaurus [`103761c`](https://github.com/LLazyEmail/assemblya/commit/103761c9e0fed6068e2cb8957d7ec5ba7582c1d6)
