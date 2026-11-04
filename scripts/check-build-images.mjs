@@ -72,7 +72,8 @@ function stripBase(pathname) {
 
 function resolveInBuild(ref, pageFile) {
   // Absolute URL or data/blob → skip
-  if (/^(https?:|data:|blob:|mailto:)/i.test(ref)) return { skip: true, reason: 'external' };
+  if (/^(https?:|data:|blob:|mailto:)/i.test(ref))
+    return { skip: true, reason: 'external' };
   // Root-absolute site path
   let urlPath;
   if (ref.startsWith('/')) {
@@ -80,7 +81,8 @@ function resolveInBuild(ref, pageFile) {
   } else {
     // Relative to the HTML page URL path
     const pageRel = path.relative(buildDir, pageFile).split(path.sep).join('/');
-    const pageUrlDir = '/' + pageRel.replace(/\/index\.html$/i, '/').replace(/[^/]+$/, '');
+    const pageUrlDir =
+      '/' + pageRel.replace(/\/index\.html$/i, '/').replace(/[^/]+$/, '');
     const joined = path.posix.normalize(path.posix.join(pageUrlDir, ref));
     urlPath = stripBase(joined.startsWith('/') ? joined : `/${joined}`);
   }
@@ -99,16 +101,34 @@ function detectImageKind(buf) {
   if (isLfsPointer(buf)) return 'lfs-pointer';
   // Magic bytes
   if (buf[0] === 0xff && buf[1] === 0xd8 && buf[2] === 0xff) return 'jpeg';
-  if (buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4e && buf[3] === 0x47) return 'png';
+  if (buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4e && buf[3] === 0x47)
+    return 'png';
   if (buf[0] === 0x47 && buf[1] === 0x49 && buf[2] === 0x46) return 'gif';
-  if (buf[0] === 0x52 && buf[1] === 0x49 && buf[2] === 0x46 && buf[3] === 0x46 &&
-      buf[8] === 0x57 && buf[9] === 0x45 && buf[10] === 0x42 && buf[11] === 0x50) return 'webp';
-  if (buf.length >= 12 && buf.toString('ascii', 4, 8) === 'ftyp') return 'avif-or-heic';
-  if (buf[0] === 0x00 && buf[1] === 0x00 && buf[2] === 0x01 && buf[3] === 0x00) return 'ico';
+  if (
+    buf[0] === 0x52 &&
+    buf[1] === 0x49 &&
+    buf[2] === 0x46 &&
+    buf[3] === 0x46 &&
+    buf[8] === 0x57 &&
+    buf[9] === 0x45 &&
+    buf[10] === 0x42 &&
+    buf[11] === 0x50
+  )
+    return 'webp';
+  if (buf.length >= 12 && buf.toString('ascii', 4, 8) === 'ftyp')
+    return 'avif-or-heic';
+  if (buf[0] === 0x00 && buf[1] === 0x00 && buf[2] === 0x01 && buf[3] === 0x00)
+    return 'ico';
   // SVG (text)
-  const head = buf.subarray(0, Math.min(buf.length, 256)).toString('utf8').trimStart();
+  const head = buf
+    .subarray(0, Math.min(buf.length, 256))
+    .toString('utf8')
+    .trimStart();
   if (head.startsWith('<svg') || head.startsWith('<?xml')) {
-    if (/<svg[\s>]/i.test(head) || /<svg[\s>]/i.test(buf.toString('utf8', 0, Math.min(buf.length, 4096)))) {
+    if (
+      /<svg[\s>]/i.test(head) ||
+      /<svg[\s>]/i.test(buf.toString('utf8', 0, Math.min(buf.length, 4096)))
+    ) {
       return 'svg';
     }
   }
@@ -204,7 +224,11 @@ function checkRef(pageFile, kind, ref) {
   }
   checked++;
   const pageRel = path.relative(buildDir, pageFile).split(path.sep).join('/');
-  const allowKeys = [resolved.ref, resolved.urlPath, path.basename(resolved.urlPath)];
+  const allowKeys = [
+    resolved.ref,
+    resolved.urlPath,
+    path.basename(resolved.urlPath),
+  ];
   const isAllowed = allowKeys.some((k) => allowlist.has(k));
 
   if (!fs.existsSync(resolved.disk)) {
@@ -269,8 +293,12 @@ lines.push('');
 lines.push(`- buildDir: \`${path.relative(root, buildDir) || '.'}\``);
 lines.push(`- baseUrl: \`${baseUrl}\``);
 lines.push(`- html files: ${htmlFiles.length}, css files: ${cssFiles.length}`);
-lines.push(`- image refs checked: ${checked} (skipped external/data: ${skippedExternal})`);
-lines.push(`- allowlist entries: ${allowlist.size}, allowlisted hits: ${allowlistedHits}`);
+lines.push(
+  `- image refs checked: ${checked} (skipped external/data: ${skippedExternal})`,
+);
+lines.push(
+  `- allowlist entries: ${allowlist.size}, allowlisted hits: ${allowlistedHits}`,
+);
 lines.push(`- **failures: ${failures.length}**`);
 lines.push('');
 
@@ -290,7 +318,9 @@ if (failures.length) {
     }
   }
 } else {
-  lines.push('All referenced local images exist, are non-empty, and look like real image bytes.');
+  lines.push(
+    'All referenced local images exist, are non-empty, and look like real image bytes.',
+  );
 }
 
 const report = lines.join('\n') + '\n';
