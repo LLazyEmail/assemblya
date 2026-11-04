@@ -19,3 +19,29 @@ logo1.png
 logo2.png
 /assets/logo1.png
 /assets/logo2.png
+
+# TODO(arthur): source files missing everywhere in the repo (not in static/, docs/ or i18n/).
+# cheap-steal: img2-img13 never committed; img1 has a corrupt JPEG header (served as not-an-image).
+# Supply the originals, then delete these entries.
+steel-hornets-cheap-steal-img1.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img1.jpg
+# emitted as a hashed asset by the markdown loader:
+steel-hornets-cheap-steal-img1-389e756b8090fd3adceb72ce92a1d60e.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img2.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img3.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img4.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img5.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img6.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img7.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img8.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img9.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img10.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img11.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img12.jpg
+/img/hornets/cheap/steel-hornets-cheap-steal-img13.jpg
+
+# TODO(arthur): model-222/dissasembled — these 4 photos are referenced but absent from the repo.
+IMG_20260621_233028_188.jpg
+IMG_20260621_233042_424.jpg
+IMG_20260621_233107_299.jpg
+IMG_20260621_233117_134.jpg
