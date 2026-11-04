@@ -1,9 +1,9 @@
 import Link from '@docusaurus/Link';
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 
 import styles from './pricing.module.css';
-import type {JSX} from 'react';
+import type { JSX } from 'react';
 
 type Plan = {
   id: string;
@@ -22,7 +22,10 @@ function Pricing(): JSX.Element {
   const plans: Plan[] = [
     {
       id: 'pack-10',
-      name: translate({id: 'pricing.plan10.name', message: '10 Drop Systems'}),
+      name: translate({
+        id: 'pricing.plan10.name',
+        message: '10 Drop Systems',
+      }),
       quantity: translate({
         id: 'pricing.plan10.quantity',
         message: 'Buy 10 drop systems',
@@ -36,16 +39,19 @@ function Pricing(): JSX.Element {
         message: 'per item',
       }),
       features: [
-        translate({id: 'pricing.feature1', message: 'feature1'}),
-        translate({id: 'pricing.feature2', message: 'feature2'}),
-        translate({id: 'pricing.feature3', message: 'feature3'}),
+        translate({ id: 'pricing.feature1', message: 'feature1' }),
+        translate({ id: 'pricing.feature2', message: 'feature2' }),
+        translate({ id: 'pricing.feature3', message: 'feature3' }),
       ],
-      ctaLabel: translate({id: 'pricing.cta.order', message: 'Order'}),
+      ctaLabel: translate({ id: 'pricing.cta.order', message: 'Order' }),
       ctaTo: '/docs/user-guide/orders',
     },
     {
       id: 'pack-20',
-      name: translate({id: 'pricing.plan20.name', message: '20 Drop Systems'}),
+      name: translate({
+        id: 'pricing.plan20.name',
+        message: '20 Drop Systems',
+      }),
       quantity: translate({
         id: 'pricing.plan20.quantity',
         message: 'Order 20 drop systems',
@@ -59,12 +65,12 @@ function Pricing(): JSX.Element {
         message: 'per item',
       }),
       features: [
-        translate({id: 'pricing.feature1', message: 'feature1'}),
-        translate({id: 'pricing.feature2', message: 'feature2'}),
-        translate({id: 'pricing.feature3', message: 'feature3'}),
-        translate({id: 'pricing.feature4', message: 'feature4'}),
+        translate({ id: 'pricing.feature1', message: 'feature1' }),
+        translate({ id: 'pricing.feature2', message: 'feature2' }),
+        translate({ id: 'pricing.feature3', message: 'feature3' }),
+        translate({ id: 'pricing.feature4', message: 'feature4' }),
       ],
-      ctaLabel: translate({id: 'pricing.cta.order', message: 'Order'}),
+      ctaLabel: translate({ id: 'pricing.cta.order', message: 'Order' }),
       ctaTo: '/docs/user-guide/orders',
       featured: true,
     },
@@ -87,11 +93,11 @@ function Pricing(): JSX.Element {
         message: 'volume pricing',
       }),
       features: [
-        translate({id: 'pricing.feature1', message: 'feature1'}),
-        translate({id: 'pricing.feature2', message: 'feature2'}),
-        translate({id: 'pricing.feature3', message: 'feature3'}),
-        translate({id: 'pricing.feature4', message: 'feature4'}),
-        translate({id: 'pricing.feature5', message: 'feature5'}),
+        translate({ id: 'pricing.feature1', message: 'feature1' }),
+        translate({ id: 'pricing.feature2', message: 'feature2' }),
+        translate({ id: 'pricing.feature3', message: 'feature3' }),
+        translate({ id: 'pricing.feature4', message: 'feature4' }),
+        translate({ id: 'pricing.feature5', message: 'feature5' }),
       ],
       ctaLabel: translate({
         id: 'pricing.cta.contact',
@@ -104,12 +110,13 @@ function Pricing(): JSX.Element {
 
   return (
     <Layout
-      title={translate({id: 'pricing.meta.title', message: 'Pricing'})}
+      title={translate({ id: 'pricing.meta.title', message: 'Pricing' })}
       description={translate({
         id: 'pricing.meta.description',
         message:
           'AssemBLYA drop system pricing — packs of 10, 20, or 30+ units.',
-      })}>
+      })}
+    >
       <main className={styles.page}>
         <header className={styles.hero}>
           <p className={styles.brand}>AssemBLYA</p>
@@ -118,8 +125,8 @@ function Pricing(): JSX.Element {
           </h1>
           <p className={styles.lede}>
             <Translate id="pricing.lede">
-              Choose a pack size for drop systems. Features are placeholders
-              for now.
+              Choose a pack size for drop systems. Features are placeholders for
+              now.
             </Translate>
           </p>
         </header>
@@ -129,7 +136,8 @@ function Pricing(): JSX.Element {
             <article
               key={plan.id}
               className={`${styles.card} ${plan.featured ? styles.featured : ''}`}
-              style={{animationDelay: `${0.08 + index * 0.08}s`}}>
+              style={{ animationDelay: `${0.08 + index * 0.08}s` }}
+            >
               <h2 className={styles.planName}>{plan.name}</h2>
               <p className={styles.quantity}>{plan.quantity}</p>
               <p className={styles.price}>

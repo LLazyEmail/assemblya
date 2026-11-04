@@ -1,13 +1,13 @@
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import {useState} from 'react';
+import { useState } from 'react';
 
 import faqEn from '../data/faq.en.json';
 import faqUk from '../data/faq.uk.json';
 
 import styles from './faq.module.css';
-import type {JSX} from 'react';
+import type { JSX } from 'react';
 
 type FaqItem = {
   id: string;
@@ -16,17 +16,18 @@ type FaqItem = {
 };
 
 function Faq(): JSX.Element {
-  const {i18n} = useDocusaurusContext();
+  const { i18n } = useDocusaurusContext();
   const items: FaqItem[] = i18n.currentLocale === 'uk' ? faqUk : faqEn;
   const [openId, setOpenId] = useState<string | null>(items[0]?.id ?? null);
 
   return (
     <Layout
-      title={translate({id: 'faq.meta.title', message: 'FAQ'})}
+      title={translate({ id: 'faq.meta.title', message: 'FAQ' })}
       description={translate({
         id: 'faq.meta.description',
         message: 'Frequently asked questions about AssemBLYA drop systems.',
-      })}>
+      })}
+    >
       <main className={styles.page}>
         <header className={styles.hero}>
           <p className={styles.brand}>AssemBLYA</p>
@@ -50,7 +51,8 @@ function Faq(): JSX.Element {
               <article
                 key={item.id}
                 className={`${styles.item} ${isOpen ? styles.open : ''}`}
-                style={{animationDelay: `${0.05 + index * 0.04}s`}}>
+                style={{ animationDelay: `${0.05 + index * 0.04}s` }}
+              >
                 <h2 className={styles.question}>
                   <button
                     id={buttonId}
@@ -62,7 +64,8 @@ function Faq(): JSX.Element {
                       setOpenId((current) =>
                         current === item.id ? null : item.id,
                       )
-                    }>
+                    }
+                  >
                     <span>{item.question}</span>
                     <i
                       className={`fa-solid ${isOpen ? 'fa-minus' : 'fa-plus'}`}
@@ -75,7 +78,8 @@ function Faq(): JSX.Element {
                   role="region"
                   aria-labelledby={buttonId}
                   hidden={!isOpen}
-                  className={styles.answer}>
+                  className={styles.answer}
+                >
                   <p>{item.answer}</p>
                 </div>
               </article>

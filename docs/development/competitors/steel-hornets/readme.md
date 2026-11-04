@@ -15,8 +15,6 @@ sidebar_position: 10
 
 ![steel-hornets-img3](/img/hornets/two-drop/steel-hornets-img3.jpg)
 
-
-
 ## DS 1
 
 - https://steelhornets.com.ua/skyd-fpv-ds1/
@@ -34,4 +32,3 @@ https://steelhornets.com.ua/bunkernyi-skyd-cds1/
 https://steelhornets.com.ua/skyd-fpv-ds1/
 
 https://steelhornets.com.ua/platforma-dlia-skydannia-trm-1s-kolobok-ta-trm-2s-tsehla-trm-2a-tsehla-a/
-

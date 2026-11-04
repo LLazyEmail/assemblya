@@ -9,9 +9,6 @@ sidebar_position: 10
 
 ## Images
 
-
-
-
 ![steel-hornets-cheap-steel-hornets-drop-img1](/img/hornets/cheap-drop/steel-hornets-cheap-steel-hornets-drop-img1.jpg)
 
 ![steel-hornets-cheap-steel-hornets-drop-img2](/img/hornets/cheap-drop/steel-hornets-cheap-steel-hornets-drop-img2.jpg)

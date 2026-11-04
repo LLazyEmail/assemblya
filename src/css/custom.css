@@ -27,7 +27,8 @@
   --ifm-color-primary-light: #387958;
   --ifm-color-primary-lighter: #3b7f5c;
   --ifm-color-primary-lightest: #4a9170;
-  --ifm-font-family-base: 'Source Serif 4', 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
+  --ifm-font-family-base:
+    'Source Serif 4', 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
   --ifm-heading-font-family: 'Sora', 'Avenir Next', 'Segoe UI', sans-serif;
   --ifm-font-color-base: var(--aa-ink);
   --ifm-background-color: var(--aa-paper);
@@ -65,8 +66,16 @@ html {
 
 body {
   background:
-    radial-gradient(1200px 600px at 10% -10%, rgba(74, 109, 124, 0.14), transparent 55%),
-    radial-gradient(900px 500px at 100% 0%, rgba(47, 107, 79, 0.12), transparent 50%),
+    radial-gradient(
+      1200px 600px at 10% -10%,
+      rgba(74, 109, 124, 0.14),
+      transparent 55%
+    ),
+    radial-gradient(
+      900px 500px at 100% 0%,
+      rgba(47, 107, 79, 0.12),
+      transparent 50%
+    ),
     linear-gradient(180deg, var(--aa-paper) 0%, var(--aa-paper-deep) 100%);
 }
 

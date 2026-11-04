@@ -15,7 +15,8 @@ const sidebars = {
       link: {
         type: 'generated-index',
         title: 'Getting Started',
-        description: 'Start here: overview, mission, and orientation for AssemBLYA.',
+        description:
+          'Start here: overview, mission, and orientation for AssemBLYA.',
         slug: '/getting-started',
       },
       items: [
@@ -31,7 +32,8 @@ const sidebars = {
       link: {
         type: 'generated-index',
         title: 'Specifications',
-        description: 'Roadmap, systems, and 3D references for the AssemBLYA platform.',
+        description:
+          'Roadmap, systems, and 3D references for the AssemBLYA platform.',
         slug: '/specifications',
       },
       items: [
@@ -66,10 +68,7 @@ const sidebars = {
         description: 'Orders, communication, and practical working notes.',
         slug: '/user-guide',
       },
-      items: [
-        'user-guide/orders/readme',
-        'user-guide/communication/readme',
-      ],
+      items: ['user-guide/orders/readme', 'user-guide/communication/readme'],
     },
     {
       type: 'category',
@@ -114,9 +113,7 @@ const sidebars = {
                     type: 'doc',
                     id: 'development/competitors/steel-hornets/111/readme',
                   },
-                  items: [
-                    'development/competitors/steel-hornets/111/xxx',
-                  ],
+                  items: ['development/competitors/steel-hornets/111/xxx'],
                 },
                 {
                   type: 'category',

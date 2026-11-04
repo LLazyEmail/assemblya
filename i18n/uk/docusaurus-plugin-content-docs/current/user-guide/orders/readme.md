@@ -14,6 +14,5 @@ Different types of servos to try
 - https://www.aliexpress.com/item/1005009218429177.html
 - https://www.aliexpress.com/item/1005011987488921.html
 
-
 For the first batch we need to have 10-20 servos.
 Next move 100 servos.

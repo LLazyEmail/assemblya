@@ -5,13 +5,12 @@ sidebar_label: Garry Houdini
 sidebar_position: 10
 ---
 
-# GarryHoudini 
-
+# GarryHoudini
 
 ### [Dua Lipa Houdini](https://www.youtube.com/watch?v=suAR1PYFNYA)
 
-
 ## Заявка на закупівлю 10-20-30 скидів
+
 ### [Роби заявку на скиди та не зайобуй](https://form.typeform.com/to/kMUOiOje)
 
 ---
@@ -21,7 +20,6 @@ sidebar_position: 10
 [VID_20260624_194649.mp4](https://www.dropbox.com/scl/fi/bk6901pww2yq3s7gol0ix/VID_20260624_194649.mp4?rlkey=rn5peci3p5bhkhaq3n58mawxj&st=fx98cweo&dl=0)
 
 ## Images
-
 
 <!--
 ### How it looks
@@ -37,9 +35,11 @@ sidebar_position: 10
 -->
 
 ### Basic testing workflow
+
 ![hudini-drop-v1-img1](/img/houdini/images/hudini-drop-v1-img1.jpg)
 
 /img/houdini/images/ diagram.png
+
 ### one
 
 ![hudini-drop-v1-img2](/img/houdini/images/hudini-drop-v1-img2.jpg)
@@ -48,10 +48,7 @@ sidebar_position: 10
 
 ![hudini-drop-v1-img4](/img/houdini/images/hudini-drop-v1-img4.jpg)
 
-
-
 ---
-
 
 ### two
 
@@ -69,7 +66,7 @@ sidebar_position: 10
 
 <!--
 
-### three 
+### three
 
 
 

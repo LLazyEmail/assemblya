@@ -5,13 +5,11 @@ sidebar_label: Дорожня карта
 sidebar_position: 1
 ---
 
-
 # Дорожня карта
 
 ## Генеральний план
 
 ![План AssemBLYA](https://raw.githubusercontent.com/atherdon/assemblya/main/static/img/master-plan.png)
-
 
 ![План ітерацій](https://raw.githubusercontent.com/atherdon/assemblya/main/static/img/Itterations-Plan.png)
 
@@ -47,10 +45,10 @@ sidebar_position: 1
 
 ## Електроніка (робочі нотатки)
 
-| Плата | Орієнтовна вартість |
-| --- | --- |
-| Клон Nano Arduino | ~80 грн |
-| Клон Micro Arduino | ~230 грн |
+| Плата              | Орієнтовна вартість |
+| ------------------ | ------------------- |
+| Клон Nano Arduino  | ~80 грн             |
+| Клон Micro Arduino | ~230 грн            |
 
 Нотатки щодо закупівлі сервоприводів: [Замовлення](../user-guide/orders/readme.md).
 

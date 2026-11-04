@@ -9,7 +9,7 @@ sidebar_position: 10
 
 ## Images
 
-<!-- 
+<!--
 ![nayavu-img1](/img/nayavu/one-drop/nayavu-img1.jpg)
 
 ![nayavu-img2](/img/nayavu/one-drop/nayavu-img2.jpg)

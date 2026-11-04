@@ -5,14 +5,7 @@ sidebar_label: Butterfly Mine
 sidebar_position: 10
 ---
 
-
-
-
-
-
-
 ![IMG-20260625-WA0113](https://raw.githubusercontent.com/atherdon/fuck-ecoflow/refs/heads/main/static/img/houdini/IMG-20260625-WA0113.jpg)
-
 
 ![IMG-20260625-WA0114](https://raw.githubusercontent.com/atherdon/fuck-ecoflow/refs/heads/main/static/img/houdini/IMG-20260625-WA0114.jpg)
 

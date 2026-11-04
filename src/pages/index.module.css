@@ -30,8 +30,17 @@
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(10, 14, 12, 0.25) 0%, var(--aa-hero-veil) 48%, rgba(10, 14, 12, 0.82) 100%),
-    radial-gradient(800px 400px at 20% 80%, rgba(47, 107, 79, 0.28), transparent 60%);
+    linear-gradient(
+      180deg,
+      rgba(10, 14, 12, 0.25) 0%,
+      var(--aa-hero-veil) 48%,
+      rgba(10, 14, 12, 0.82) 100%
+    ),
+    radial-gradient(
+      800px 400px at 20% 80%,
+      rgba(47, 107, 79, 0.28),
+      transparent 60%
+    );
   pointer-events: none;
 }
 
@@ -93,7 +102,11 @@
   font-weight: 600;
   letter-spacing: -0.01em;
   text-decoration: none;
-  transition: transform 180ms ease, background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease;
 }
 
 .ctaPrimary {
@@ -241,7 +254,10 @@
   border-radius: 0.35rem;
   color: inherit;
   text-decoration: none;
-  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
 }
 
 .exploreCard:hover {
