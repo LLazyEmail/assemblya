@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- perf: smaller competitors/research images (brav batch 2/2) [`#76`](https://github.com/LLazyEmail/assemblya/pull/76)
 - perf: recompress remaining competitors images (nayavu/etc.) [`#78`](https://github.com/LLazyEmail/assemblya/pull/78)
 - style: apply prettier to 63 files never formatted on main [`#79`](https://github.com/LLazyEmail/assemblya/pull/79)
 - perf: smaller steel-hornets competitor images + lazy MDX imgs [`#77`](https://github.com/LLazyEmail/assemblya/pull/77)
@@ -147,6 +148,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - chore(docs-index): regenerate all-pages markdown list [`4c89d44`](https://github.com/LLazyEmail/assemblya/commit/4c89d440711d05fe0ad04f5b293e762800a5a923)
 - Add script to find missing image references [`9b3b2c3`](https://github.com/LLazyEmail/assemblya/commit/9b3b2c3c0ec2945b8ff50836d43637b40dad8e1e)
 - Add files via upload [`0da670f`](https://github.com/LLazyEmail/assemblya/commit/0da670f15804ed27a9ab2f67b1cb8e9073d30167)
+- perf: recompress competitors research brav images batch 2 (PNG→JPEG) [`41bba10`](https://github.com/LLazyEmail/assemblya/commit/41bba10e8bd7d4af7e098b4ce23a7f72c7b1f46f)
 - chore: add check:images script for missing markdown media [`c15e4db`](https://github.com/LLazyEmail/assemblya/commit/c15e4dbe6a01b3d4c436cd95075ecf700aa774d7)
 - Add files via upload [`bf7a995`](https://github.com/LLazyEmail/assemblya/commit/bf7a995d74c8dc398dcb2adc0c628e03ca693bde)
 - Update team.en.json [`b564cb4`](https://github.com/LLazyEmail/assemblya/commit/b564cb47836d0600a62ee292ad4f54ec3bad1987)
@@ -235,6 +237,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add renovate.json [`2b62793`](https://github.com/LLazyEmail/assemblya/commit/2b62793dd19e03406f546430e87f899caa2815b6)
 - 111 [`f597033`](https://github.com/LLazyEmail/assemblya/commit/f5970335bdfdb0d195eb9466730eb318905ae077)
 - Update roadmap.md [`e3b2bf3`](https://github.com/LLazyEmail/assemblya/commit/e3b2bf37d0bba99e2ef7253f4ad05c58fc8cdf12)
+- chore(changelog): regenerate after merged pull request [`76de438`](https://github.com/LLazyEmail/assemblya/commit/76de4382901348a5ae6821b2702ec51d883ea538)
 - chore(changelog): regenerate after merged pull request [`3dec6c6`](https://github.com/LLazyEmail/assemblya/commit/3dec6c6fb62b5f115cfb280b47d84beba98f7332)
 - chore: bump @mdx-js/react to ^3.1.0 [`617dea2`](https://github.com/LLazyEmail/assemblya/commit/617dea2dea5da390e8616ebfc07ef4447045c595)
 - chore: bump prism-react-renderer to ^2.4.1 [`c1c2501`](https://github.com/LLazyEmail/assemblya/commit/c1c2501ef99e69803f06bf5ada8798c5a4a2ea47)
@@ -298,6 +301,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add rm.md with initial content [`81d60a2`](https://github.com/LLazyEmail/assemblya/commit/81d60a2c8d231c069c07980db5ec6f8c7d93cdda)
 - Create rm.md [`14ed01d`](https://github.com/LLazyEmail/assemblya/commit/14ed01d1e8ddb67a05177914e00f03ea2a505d04)
 - Initial commit [`4a4d44f`](https://github.com/LLazyEmail/assemblya/commit/4a4d44f27bcfeb864623d09919a09cf4e237951e)
+- ci: retrigger checks after Actions recovery [`8eb9668`](https://github.com/LLazyEmail/assemblya/commit/8eb9668dff19b5f9a9fb0af9aa3ab9bcfa509bca)
+- chore: retrigger CI after rebase [`a1899e0`](https://github.com/LLazyEmail/assemblya/commit/a1899e02543374e8721f157ce88ad6bf1bd9ae5b)
 - perf: recompress remaining competitors images (nayavu/nazarium/butterfly/vampire/hornets) [`f767139`](https://github.com/LLazyEmail/assemblya/commit/f76713991ca00d08592f0703aac231ac43d71672)
 - chore: merge atherdon/assemblya main into fork (sync after #97) [`80f3f6b`](https://github.com/LLazyEmail/assemblya/commit/80f3f6ba4d8ac52cb0f0a44a129be251ecab134f)
 - Merge upstream/main resolving CHANGELOG.md conflict [`7fc466b`](https://github.com/LLazyEmail/assemblya/commit/7fc466b57e613f4783430b7dd8481a42d95b68ba)
