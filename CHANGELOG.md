@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- perf: recompress remaining competitors images (nayavu/etc.) [`#78`](https://github.com/LLazyEmail/assemblya/pull/78)
 - style: apply prettier to 63 files never formatted on main [`#79`](https://github.com/LLazyEmail/assemblya/pull/79)
 - perf: smaller steel-hornets competitor images + lazy MDX imgs [`#77`](https://github.com/LLazyEmail/assemblya/pull/77)
 - perf: smaller competitors/research images (brav batch 1/2) [`#75`](https://github.com/LLazyEmail/assemblya/pull/75)
@@ -131,6 +132,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update timeline.en.json [`88c6f3f`](https://github.com/LLazyEmail/assemblya/commit/88c6f3f260d07434e8a47ac41fe4276855c05201)
 - Update impart-effort-matrix1.md [`eef88d7`](https://github.com/LLazyEmail/assemblya/commit/eef88d7365678e2fc7bb09ef59ffcd965bc52e3e)
 - 122112 [`d49c46c`](https://github.com/LLazyEmail/assemblya/commit/d49c46cb4ffd510dd3f8fe5bee10d204c85fbb0d)
+- chore(docs-index): regenerate all-pages markdown list [`7b5c502`](https://github.com/LLazyEmail/assemblya/commit/7b5c5024837e7e1b44d6b73daaa05f7e53f6d918)
 - Create homepage features component [`497aac6`](https://github.com/LLazyEmail/assemblya/commit/497aac665ebb272c1669a095c98d1bafe241714c)
 - 111 [`f505505`](https://github.com/LLazyEmail/assemblya/commit/f505505d4f6a2b5d36c3b5b2d0a84c19f5446028)
 - style: apply Prettier formatting (batch 1/6) [`35565e3`](https://github.com/LLazyEmail/assemblya/commit/35565e3545c5ff52504599a25ca16d8384e5e6a5)
@@ -243,6 +245,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - i command you to build [`2e9cd6b`](https://github.com/LLazyEmail/assemblya/commit/2e9cd6be217f1b257223db58a358ccccd22cee97)
 - 11 [`efe96dd`](https://github.com/LLazyEmail/assemblya/commit/efe96ddfe73ce9d86103749f16a1b7a3311d5e3b)
 - Update roadmap.md [`e224250`](https://github.com/LLazyEmail/assemblya/commit/e224250dc2fbd8aa13f5530268ab36f8a0e7dfc5)
+- chore(changelog): regenerate after merged pull request [`5441967`](https://github.com/LLazyEmail/assemblya/commit/5441967aad813bfca1f80380169820ce1fc58db1)
 - chore(changelog): regenerate after merged pull request [`c86eb00`](https://github.com/LLazyEmail/assemblya/commit/c86eb00325b875b05f7831654ac68c282d60be70)
 - chore(changelog): regenerate after merged pull request [`6669cfd`](https://github.com/LLazyEmail/assemblya/commit/6669cfda730fffee404194bfd6d9eb7324b08cec)
 - chore(changelog): regenerate after merged pull request [`830ed78`](https://github.com/LLazyEmail/assemblya/commit/830ed78672c4aceef9d9b627c413dbf586a18717)
@@ -295,6 +298,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add rm.md with initial content [`81d60a2`](https://github.com/LLazyEmail/assemblya/commit/81d60a2c8d231c069c07980db5ec6f8c7d93cdda)
 - Create rm.md [`14ed01d`](https://github.com/LLazyEmail/assemblya/commit/14ed01d1e8ddb67a05177914e00f03ea2a505d04)
 - Initial commit [`4a4d44f`](https://github.com/LLazyEmail/assemblya/commit/4a4d44f27bcfeb864623d09919a09cf4e237951e)
+- perf: recompress remaining competitors images (nayavu/nazarium/butterfly/vampire/hornets) [`f767139`](https://github.com/LLazyEmail/assemblya/commit/f76713991ca00d08592f0703aac231ac43d71672)
 - chore: merge atherdon/assemblya main into fork (sync after #97) [`80f3f6b`](https://github.com/LLazyEmail/assemblya/commit/80f3f6ba4d8ac52cb0f0a44a129be251ecab134f)
 - Merge upstream/main resolving CHANGELOG.md conflict [`7fc466b`](https://github.com/LLazyEmail/assemblya/commit/7fc466b57e613f4783430b7dd8481a42d95b68ba)
 - Add files via upload [`3700515`](https://github.com/LLazyEmail/assemblya/commit/3700515e4bac41516dfb3da5b59161d0df21d224)
