@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Merged
 
+- fix: restore LLazyEmail organizationName (fork docusaurus identity) [`#72`](https://github.com/LLazyEmail/assemblya/pull/72)
 - ci: verify images display correctly in website build output [`#74`](https://github.com/LLazyEmail/assemblya/pull/74)
 - perf: smaller competitors/research images (brav batch 2/2) [`#76`](https://github.com/LLazyEmail/assemblya/pull/76)
 - perf: recompress remaining competitors images (nayavu/etc.) [`#78`](https://github.com/LLazyEmail/assemblya/pull/78)
@@ -136,6 +137,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update timeline.en.json [`88c6f3f`](https://github.com/LLazyEmail/assemblya/commit/88c6f3f260d07434e8a47ac41fe4276855c05201)
 - Update impart-effort-matrix1.md [`eef88d7`](https://github.com/LLazyEmail/assemblya/commit/eef88d7365678e2fc7bb09ef59ffcd965bc52e3e)
 - 122112 [`d49c46c`](https://github.com/LLazyEmail/assemblya/commit/d49c46cb4ffd510dd3f8fe5bee10d204c85fbb0d)
+- chore(docs-index): regenerate all-pages markdown list [`a42d40c`](https://github.com/LLazyEmail/assemblya/commit/a42d40c433f82a64c0437764c40681f2ea027424)
 - style: prettier-format docs/pages-index.md [`f351a34`](https://github.com/LLazyEmail/assemblya/commit/f351a34afdf2f574c82bef1d89cf6e6c94dc7c10)
 - chore(docs-index): regenerate all-pages markdown list [`7b5c502`](https://github.com/LLazyEmail/assemblya/commit/7b5c5024837e7e1b44d6b73daaa05f7e53f6d918)
 - Create homepage features component [`497aac6`](https://github.com/LLazyEmail/assemblya/commit/497aac665ebb272c1669a095c98d1bafe241714c)
@@ -224,9 +226,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - docs: add CHANGELOG.md scaffold [`0099c6b`](https://github.com/LLazyEmail/assemblya/commit/0099c6bdd534c1149573a66c4a7458c677417e67)
 - Create documentation intro page [`6c56291`](https://github.com/LLazyEmail/assemblya/commit/6c56291bcfccfc283c7218c1c16b7c7534dcb4d5)
 - Create homepage features styles [`bfe2aa5`](https://github.com/LLazyEmail/assemblya/commit/bfe2aa52d544a3111fc4d9ae14dafdb343d685fc)
+- chore(changelog): regenerate after merged pull request [`3e9c617`](https://github.com/LLazyEmail/assemblya/commit/3e9c6176359fa9a4243391fe4dfc6a6e45f8f419)
 - chore(changelog): regenerate after merged pull request [`a14645d`](https://github.com/LLazyEmail/assemblya/commit/a14645db6210f2dfd8f41cdf922cefe621d93663)
 - 111 [`ad25252`](https://github.com/LLazyEmail/assemblya/commit/ad25252dccb7fe8bb1099aa3c1b86500c533e366)
 - 111 [`ccce88e`](https://github.com/LLazyEmail/assemblya/commit/ccce88e7365146dbb654798905687cb6f9d2dd8a)
+- fix: restore LLazyEmail organizationName in docusaurus config [`ed204a5`](https://github.com/LLazyEmail/assemblya/commit/ed204a57ccd8af443237ec91909b8a23ba6fdf64)
 - 3131312 [`3b23cc5`](https://github.com/LLazyEmail/assemblya/commit/3b23cc5ffff680ac4a02dc7de6a306f12582cd61)
 - 312 [`f069f98`](https://github.com/LLazyEmail/assemblya/commit/f069f9894943fe7c36002884948d794409dd38b3)
 - Update team.en.json [`0a700fb`](https://github.com/LLazyEmail/assemblya/commit/0a700fbd1c4332fe0245a183b826da01f739542f)
