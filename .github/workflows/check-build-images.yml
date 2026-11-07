@@ -1,0 +1,36 @@
+name: Build image check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-images-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-build-images:
+    name: Verify images in build output
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # Never enable Git LFS smudge — LFS objects 404 in this repo.
+          lfs: false
+
+      - name: Build Docusaurus (en + uk)
+        uses: LLazyEmail/documentation-actions/actions/docusaurus-build@v1
+        with:
+          working-directory: .
+          cache-dependency-path: package-lock.json
+          node-version: '24'
+
+      - name: Verify build images
+        run: node scripts/check-build-images.mjs --build-dir build --base-url /assemblya/ --allowlist scripts/build-image-allowlist.txt
